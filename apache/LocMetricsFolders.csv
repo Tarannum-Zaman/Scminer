@@ -1,0 +1,11 @@
+Folder,Files,LOC,SLOC-P,SLOC-L,MVG,BLOC,C&SLOC,CLOC,CWORD,HCLOC,HCWORD
+Total,21,1505,582,142,0,241,19,682,4339,472,3068
+C:\MY_project_locrocon\apache\httpd-2.2.6-win32-src-r2\httpd-2.2.6\server\mpm,21,1505,582,142,0,241,19,682,4339,472,3068
+C:\MY_project_locrocon\apache\httpd-2.2.6-win32-src-r2\httpd-2.2.6\server\mpm\beos,3,171,56,8,0,24,3,91,601,67,433
+C:\MY_project_locrocon\apache\httpd-2.2.6-win32-src-r2\httpd-2.2.6\server\mpm\experimental,4,287,135,42,0,44,3,108,694,89,575
+C:\MY_project_locrocon\apache\httpd-2.2.6-win32-src-r2\httpd-2.2.6\server\mpm\experimental\event,4,287,135,42,0,44,3,108,694,89,575
+C:\MY_project_locrocon\apache\httpd-2.2.6-win32-src-r2\httpd-2.2.6\server\mpm\mpmt_os2,2,113,34,1,0,20,2,59,373,44,288
+C:\MY_project_locrocon\apache\httpd-2.2.6-win32-src-r2\httpd-2.2.6\server\mpm\netware,2,182,54,3,0,31,2,97,557,45,290
+C:\MY_project_locrocon\apache\httpd-2.2.6-win32-src-r2\httpd-2.2.6\server\mpm\prefork,2,138,54,3,0,22,2,62,405,45,294
+C:\MY_project_locrocon\apache\httpd-2.2.6-win32-src-r2\httpd-2.2.6\server\mpm\winnt,4,338,123,46,0,58,4,157,1013,93,611
+C:\MY_project_locrocon\apache\httpd-2.2.6-win32-src-r2\httpd-2.2.6\server\mpm\worker,4,276,126,39,0,42,3,108,696,89,577
