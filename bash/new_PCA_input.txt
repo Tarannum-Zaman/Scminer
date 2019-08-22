@@ -1,0 +1,99 @@
+ Fp1+13_bash1 Fp1+13_bash1+3_bash1 Fp1+13_bash1+3_bash1+13_bash1 Fp1+13_bash1+3_bash1+13_bash1+5_bash1 Fp1+13_bash1+3_bash1+13_bash1+5_bash1+3_bash1 Fp1+13_bash1+3_bash1+13_bash1+5_bash1+3_bash1+Fp1 Fp1+13_bash1+3_bash1+13_bash1+5_bash1+3_bash1+Fp1+4_bash1 Fp1+13_bash1+3_bash1+13_bash1+5_bash1+3_bash1+Fp1+4_bash1+Fp1 Fp1+13_bash1+3_bash1+13_bash1+5_bash1+3_bash1+Fp1+4_bash1+Fp1+Fp2 Fp1+13_bash1+3_bash1+13_bash1+5_bash1+3_bash1+Fp1+4_bash1+Fp1+Fp2+13_bash1 Fp1+13_bash1+3_bash1+13_bash1+5_bash1+3_bash1+Fp1+4_bash1+Fp1+Fp2+13_bash1+4_bash1 Fp1+13_bash1+3_bash1+13_bash1+5_bash1+3_bash1+Fp1+4_bash1+Fp1+Fp2+13_bash1+4_bash1+Fp2 Fp1+13_bash1+3_bash1+13_bash1+5_bash1+3_bash1+Fp1+4_bash1+Fp1+Fp2+13_bash1+4_bash1+Fp2+Fp1 Fp1+13_bash1+3_bash1+13_bash1+5_bash1+3_bash1+Fp1+4_bash1+Fp1+Fp2+13_bash1+4_bash1+Fp2+Fp1+33_bash1 Fp1+13_bash1+3_bash1+13_bash1+5_bash1+3_bash1+Fp1+4_bash1+Fp1+Fp2+13_bash1+4_bash1+Fp2+Fp1+33_bash1+3_bash1 Fp1+13_bash1+3_bash1+13_bash1+5_bash1+3_bash1+Fp1+4_bash1+Fp1+Fp2+13_bash1+4_bash1+Fp2+Fp1+33_bash1+3_bash1+13_bash1 Fp1+13_bash1+3_bash1+13_bash1+5_bash1+3_bash1+Fp1+4_bash1+Fp1+Fp2+13_bash1+4_bash1+Fp2+Fp1+33_bash1+3_bash1+13_bash1+3_bash1 Fp1+13_bash1+3_bash1+13_bash1+5_bash1+3_bash1+Fp1+4_bash1+Fp1+Fp2+13_bash1+Fp3 Fp1+13_bash1+3_bash1+13_bash1+5_bash1+3_bash1+Fp1+4_bash1+Fp1+Fp2+13_bash1+Fp3+Fp3 Fp1+13_bash1+3_bash1+13_bash1+5_bash1+3_bash1+Fp1+4_bash1+Fp1+Fp2+13_bash1+Fp3+Fp3+4_bash1 Fp1+13_bash1+3_bash1+13_bash1+5_bash1+3_bash1+Fp1+4_bash1+Fp1+Fp2+13_bash1+Fp3+Fp3+4_bash1+Fp2 Fp1+13_bash1+3_bash1+13_bash1+5_bash1+3_bash1+Fp1+4_bash1+Fp1+Fp2+13_bash1+Fp3+Fp3+4_bash1+Fp2+Fp1 Fp1+13_bash1+3_bash1+13_bash1+5_bash1+3_bash1+Fp1+4_bash1+Fp1+Fp2+13_bash1+Fp3+Fp3+4_bash1+Fp2+Fp1+33_bash1 Fp1+13_bash1+3_bash1+13_bash1+5_bash1+3_bash1+Fp1+4_bash1+Fp1+Fp2+13_bash1+Fp3+Fp3+4_bash1+Fp2+Fp1+33_bash1+3_bash1 Fp1+13_bash1+3_bash1+13_bash1+5_bash1+3_bash1+Fp1+4_bash1+Fp1+Fp2+13_bash1+Fp3+Fp3+4_bash1+Fp2+Fp1+33_bash1+3_bash1+13_bash1 Fp1+13_bash1+3_bash1+13_bash1+5_bash1+3_bash1+Fp1+4_bash1+Fp1+Fp2+13_bash1+Fp3+Fp3+4_bash1+Fp2+Fp1+33_bash1+3_bash1+13_bash1+3_bash1 Fp1+13_bash1+3_bash1+13_bash1+5_bash1+3_bash1+Fp1+4_bash1+Fp1+Fp2+13_bash1+Fp3+Fp3+4_bash1+Fp2+Fp3 Fp1+13_bash1+3_bash1+13_bash1+5_bash1+3_bash1+Fp1+4_bash1+Fp1+Fp2+13_bash1+Fp3+Fp3+4_bash1+Fp2+Fp3+Fp1 Fp1+13_bash1+3_bash1+13_bash1+5_bash1+3_bash1+Fp1+4_bash1+Fp1+Fp2+13_bash1+Fp3+Fp3+4_bash1+Fp2+Fp3+Fp1+33_bash1 Fp1+13_bash1+3_bash1+13_bash1+5_bash1+3_bash1+Fp1+4_bash1+Fp1+Fp2+13_bash1+Fp3+Fp3+4_bash1+Fp2+Fp3+Fp1+33_bash1+3_bash1 Fp1+13_bash1+3_bash1+13_bash1+5_bash1+3_bash1+Fp1+4_bash1+Fp1+Fp2+13_bash1+Fp3+Fp3+4_bash1+Fp2+Fp3+Fp1+33_bash1+3_bash1+13_bash1 Fp1+13_bash1+3_bash1+13_bash1+5_bash1+3_bash1+Fp1+4_bash1+Fp1+Fp2+13_bash1+Fp3+Fp3+4_bash1+Fp2+Fp3+Fp1+33_bash1+3_bash1+13_bash1+3_bash1 Fp1+13_bash1+3_bash1+13_bash1+5_bash1+3_bash1+Fp1+4_bash1+Fp1+2_bash1 Fp1+13_bash1+3_bash1+13_bash1+5_bash1+3_bash1+Fp1+4_bash1+Fp1+2_bash1+2_bash2 Fp1+13_bash1+3_bash1+13_bash1+5_bash1+3_bash1+Fp1+4_bash1+Fp1+2_bash1+2_bash2+1_bash2 Fp1+13_bash1+3_bash1+13_bash1+5_bash1+3_bash1+Fp1+4_bash1+Fp1+2_bash1+2_bash2+1_bash2+3_bash2 Fp1+13_bash1+3_bash1+13_bash1+5_bash1+3_bash1+Fp1+4_bash1+Fp1+2_bash1+2_bash2+1_bash2+3_bash2+1_bash1 Fp1+13_bash1+3_bash1+13_bash1+5_bash1+3_bash1+Fp1+4_bash1+Fp1+2_bash1+2_bash2+1_bash2+3_bash2+1_bash1+3_bash1
+1 2 1 1 2 1 1 1 2 1 2 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+2 1 2 1 1 1 2 2 1 1 1 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0
+3 1 1 2 1 2 1 1 1 2 1 0 0 0 0 0 0 0 1 1 1 1 0 0 0 0 0 1 1 1 1 1 1 0 0 0 0 0 0
+4 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1
+5 2 1 1 2 1 1 1 2 1 2 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+6 1 2 1 1 1 2 2 1 1 1 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0
+7 1 1 2 1 2 1 1 1 2 1 0 0 0 0 0 0 0 1 1 1 1 0 0 0 0 0 1 1 1 1 1 1 0 0 0 0 0 0
+
+
+
+
+
+######1.........................
+Fp1+13_bash1
+Fp1+13_bash1+3_bash1
+Fp1+13_bash1+3_bash1+13_bash1
+Fp1+13_bash1+3_bash1+13_bash1+5_bash1
+Fp1+13_bash1+3_bash1+13_bash1+5_bash1+3_bash1
+Fp1+13_bash1+3_bash1+13_bash1+5_bash1+3_bash1+Fp1
+Fp1+13_bash1+3_bash1+13_bash1+5_bash1+3_bash1+Fp1+4_bash1
+Fp1+13_bash1+3_bash1+13_bash1+5_bash1+3_bash1+Fp1+4_bash1+Fp1
+Fp1+13_bash1+3_bash1+13_bash1+5_bash1+3_bash1+Fp1+4_bash1+Fp1+Fp2
+Fp1+13_bash1+3_bash1+13_bash1+5_bash1+3_bash1+Fp1+4_bash1+Fp1+Fp2+13_bash1
+Fp1+13_bash1+3_bash1+13_bash1+5_bash1+3_bash1+Fp1+4_bash1+Fp1+Fp2+13_bash1+4_bash1
+Fp1+13_bash1+3_bash1+13_bash1+5_bash1+3_bash1+Fp1+4_bash1+Fp1+Fp2+13_bash1+4_bash1+Fp2
+Fp1+13_bash1+3_bash1+13_bash1+5_bash1+3_bash1+Fp1+4_bash1+Fp1+Fp2+13_bash1+4_bash1+Fp2+Fp1
+Fp1+13_bash1+3_bash1+13_bash1+5_bash1+3_bash1+Fp1+4_bash1+Fp1+Fp2+13_bash1+4_bash1+Fp2+Fp1+33_bash1
+Fp1+13_bash1+3_bash1+13_bash1+5_bash1+3_bash1+Fp1+4_bash1+Fp1+Fp2+13_bash1+4_bash1+Fp2+Fp1+33_bash1+3_bash1
+Fp1+13_bash1+3_bash1+13_bash1+5_bash1+3_bash1+Fp1+4_bash1+Fp1+Fp2+13_bash1+4_bash1+Fp2+Fp1+33_bash1+3_bash1+13_bash1
+Fp1+13_bash1+3_bash1+13_bash1+5_bash1+3_bash1+Fp1+4_bash1+Fp1+Fp2+13_bash1+4_bash1+Fp2+Fp1+33_bash1+3_bash1+13_bash1+3_bash1
+
+
+
+#####2.............................................
+Fp1+13_bash1
+Fp1+13_bash1+3_bash1
+Fp1+13_bash1+3_bash1+13_bash1
+Fp1+13_bash1+3_bash1+13_bash1+5_bash1
+Fp1+13_bash1+3_bash1+13_bash1+5_bash1+3_bash1
+Fp1+13_bash1+3_bash1+13_bash1+5_bash1+3_bash1+Fp1
+Fp1+13_bash1+3_bash1+13_bash1+5_bash1+3_bash1+Fp1+4_bash1
+Fp1+13_bash1+3_bash1+13_bash1+5_bash1+3_bash1+Fp1+4_bash1+Fp1
+Fp1+13_bash1+3_bash1+13_bash1+5_bash1+3_bash1+Fp1+4_bash1+Fp1+Fp2
+Fp1+13_bash1+3_bash1+13_bash1+5_bash1+3_bash1+Fp1+4_bash1+Fp1+Fp2+13_bash1
+
+Fp1+13_bash1+3_bash1+13_bash1+5_bash1+3_bash1+Fp1+4_bash1+Fp1+Fp2+13_bash1+Fp3
+Fp1+13_bash1+3_bash1+13_bash1+5_bash1+3_bash1+Fp1+4_bash1+Fp1+Fp2+13_bash1+Fp3+Fp3
+Fp1+13_bash1+3_bash1+13_bash1+5_bash1+3_bash1+Fp1+4_bash1+Fp1+Fp2+13_bash1+Fp3+Fp3+4_bash1
+Fp1+13_bash1+3_bash1+13_bash1+5_bash1+3_bash1+Fp1+4_bash1+Fp1+Fp2+13_bash1+Fp3+Fp3+4_bash1+Fp2
+Fp1+13_bash1+3_bash1+13_bash1+5_bash1+3_bash1+Fp1+4_bash1+Fp1+Fp2+13_bash1+Fp3+Fp3+4_bash1+Fp2+Fp1
+Fp1+13_bash1+3_bash1+13_bash1+5_bash1+3_bash1+Fp1+4_bash1+Fp1+Fp2+13_bash1+Fp3+Fp3+4_bash1+Fp2+Fp1+33_bash1
+Fp1+13_bash1+3_bash1+13_bash1+5_bash1+3_bash1+Fp1+4_bash1+Fp1+Fp2+13_bash1+Fp3+Fp3+4_bash1+Fp2+Fp1+33_bash1+3_bash1
+Fp1+13_bash1+3_bash1+13_bash1+5_bash1+3_bash1+Fp1+4_bash1+Fp1+Fp2+13_bash1+Fp3+Fp3+4_bash1+Fp2+Fp1+33_bash1+3_bash1+13_bash1
+Fp1+13_bash1+3_bash1+13_bash1+5_bash1+3_bash1+Fp1+4_bash1+Fp1+Fp2+13_bash1+Fp3+Fp3+4_bash1+Fp2+Fp1+33_bash1+3_bash1+13_bash1+3_bash1
+
+#############3...............................
+Fp1+13_bash1
+Fp1+13_bash1+3_bash1
+Fp1+13_bash1+3_bash1+13_bash1
+Fp1+13_bash1+3_bash1+13_bash1+5_bash1
+Fp1+13_bash1+3_bash1+13_bash1+5_bash1+3_bash1
+Fp1+13_bash1+3_bash1+13_bash1+5_bash1+3_bash1+Fp1
+Fp1+13_bash1+3_bash1+13_bash1+5_bash1+3_bash1+Fp1+4_bash1
+Fp1+13_bash1+3_bash1+13_bash1+5_bash1+3_bash1+Fp1+4_bash1+Fp1
+Fp1+13_bash1+3_bash1+13_bash1+5_bash1+3_bash1+Fp1+4_bash1+Fp1+Fp2
+Fp1+13_bash1+3_bash1+13_bash1+5_bash1+3_bash1+Fp1+4_bash1+Fp1+Fp2+13_bash1
+Fp1+13_bash1+3_bash1+13_bash1+5_bash1+3_bash1+Fp1+4_bash1+Fp1+Fp2+13_bash1+Fp3
+Fp1+13_bash1+3_bash1+13_bash1+5_bash1+3_bash1+Fp1+4_bash1+Fp1+Fp2+13_bash1+Fp3+Fp3
+Fp1+13_bash1+3_bash1+13_bash1+5_bash1+3_bash1+Fp1+4_bash1+Fp1+Fp2+13_bash1+Fp3+Fp3+4_bash1
+Fp1+13_bash1+3_bash1+13_bash1+5_bash1+3_bash1+Fp1+4_bash1+Fp1+Fp2+13_bash1+Fp3+Fp3+4_bash1+Fp2
+
+Fp1+13_bash1+3_bash1+13_bash1+5_bash1+3_bash1+Fp1+4_bash1+Fp1+Fp2+13_bash1+Fp3+Fp3+4_bash1+Fp2+Fp3
+Fp1+13_bash1+3_bash1+13_bash1+5_bash1+3_bash1+Fp1+4_bash1+Fp1+Fp2+13_bash1+Fp3+Fp3+4_bash1+Fp2+Fp3+Fp1
+Fp1+13_bash1+3_bash1+13_bash1+5_bash1+3_bash1+Fp1+4_bash1+Fp1+Fp2+13_bash1+Fp3+Fp3+4_bash1+Fp2+Fp3+Fp1+33_bash1
+Fp1+13_bash1+3_bash1+13_bash1+5_bash1+3_bash1+Fp1+4_bash1+Fp1+Fp2+13_bash1+Fp3+Fp3+4_bash1+Fp2+Fp3+Fp1+33_bash1+3_bash1
+Fp1+13_bash1+3_bash1+13_bash1+5_bash1+3_bash1+Fp1+4_bash1+Fp1+Fp2+13_bash1+Fp3+Fp3+4_bash1+Fp2+Fp3+Fp1+33_bash1+3_bash1+13_bash1
+Fp1+13_bash1+3_bash1+13_bash1+5_bash1+3_bash1+Fp1+4_bash1+Fp1+Fp2+13_bash1+Fp3+Fp3+4_bash1+Fp2+Fp3+Fp1+33_bash1+3_bash1+13_bash1+3_bash1
+
+#############4........failed...............................
+Fp1+13_bash1
+Fp1+13_bash1+3_bash1
+Fp1+13_bash1+3_bash1+13_bash1
+Fp1+13_bash1+3_bash1+13_bash1+5_bash1
+Fp1+13_bash1+3_bash1+13_bash1+5_bash1+3_bash1
+Fp1+13_bash1+3_bash1+13_bash1+5_bash1+3_bash1+Fp1
+Fp1+13_bash1+3_bash1+13_bash1+5_bash1+3_bash1+Fp1+4_bash1
+Fp1+13_bash1+3_bash1+13_bash1+5_bash1+3_bash1+Fp1+4_bash1+Fp1
+
+
+
+Fp1+13_bash1+3_bash1+13_bash1+5_bash1+3_bash1+Fp1+4_bash1+Fp1+2_bash1
+Fp1+13_bash1+3_bash1+13_bash1+5_bash1+3_bash1+Fp1+4_bash1+Fp1+2_bash1+2_bash2
+Fp1+13_bash1+3_bash1+13_bash1+5_bash1+3_bash1+Fp1+4_bash1+Fp1+2_bash1+2_bash2+1_bash2
+Fp1+13_bash1+3_bash1+13_bash1+5_bash1+3_bash1+Fp1+4_bash1+Fp1+2_bash1+2_bash2+1_bash2+3_bash2
+Fp1+13_bash1+3_bash1+13_bash1+5_bash1+3_bash1+Fp1+4_bash1+Fp1+2_bash1+2_bash2+1_bash2+3_bash2+1_bash1
+Fp1+13_bash1+3_bash1+13_bash1+5_bash1+3_bash1+Fp1+4_bash1+Fp1+2_bash1+2_bash2+1_bash2+3_bash2+1_bash1+3_bash1
+
+rest:   13_bash1+Fp3+Fp3+4_bash1+Fp2+Fp3+Fp1+33_bash1+3_bash1+13_bash1+3_bash1

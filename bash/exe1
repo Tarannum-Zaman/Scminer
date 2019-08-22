@@ -1,0 +1,680 @@
+type=SYSCALL msg=audit(1548380557.863:429078): arch=c000003e syscall=59 success=yes exit=0 a0=aefe88 a1=af1008 a2=ab8008 a3=7ffef26a9790 items=2 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=EXECVE msg=audit(1548380557.863:429078): argc=2 a0="/home/shaila/Documents/work_example/bashc-3.0/bash" a1="-i"
+type=CWD msg=audit(1548380557.863:429078):  cwd="/home/shaila/Documents/work_example/bashc-3.0"
+type=PATH msg=audit(1548380557.863:429078): item=0 name="/home/shaila/Documents/work_example/bashc-3.0/bash" inode=534019 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=PATH msg=audit(1548380557.863:429078): item=1 name="/lib64/ld-linux-x86-64.so.2" inode=267737 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=UNKNOWN[1327] msg=audit(1548380557.863:429078): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.863:429079): arch=c000003e syscall=12 success=yes exit=39841792 a0=0 a1=0 a2=0 a3=0 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.863:429079): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.863:429080): arch=c000003e syscall=21 success=no exit=-2 a0=7f57e46189fd a1=0 a2=4 a3=400000006 items=1 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=CWD msg=audit(1548380557.863:429080):  cwd="/home/shaila/Documents/work_example/bashc-3.0"
+type=PATH msg=audit(1548380557.863:429080): item=0 name="/etc/ld.so.nohwcap" nametype=UNKNOWN
+type=UNKNOWN[1327] msg=audit(1548380557.863:429080): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.863:429081): arch=c000003e syscall=21 success=no exit=-2 a0=7f57e461b510 a1=4 a2=6 a3=4 items=1 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=CWD msg=audit(1548380557.863:429081):  cwd="/home/shaila/Documents/work_example/bashc-3.0"
+type=PATH msg=audit(1548380557.863:429081): item=0 name="/etc/ld.so.preload" nametype=UNKNOWN
+type=UNKNOWN[1327] msg=audit(1548380557.863:429081): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.863:429082): arch=c000003e syscall=2 success=yes exit=3 a0=7f57e4618f33 a1=80000 a2=1 a3=7f57e4820570 items=1 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=CWD msg=audit(1548380557.863:429082):  cwd="/home/shaila/Documents/work_example/bashc-3.0"
+type=PATH msg=audit(1548380557.863:429082): item=0 name="/etc/ld.so.cache" inode=132539 dev=08:01 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=UNKNOWN[1327] msg=audit(1548380557.863:429082): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.863:429083): arch=c000003e syscall=5 success=yes exit=0 a0=3 a1=7fff358527a0 a2=7fff358527a0 a3=7f57e4820570 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.863:429083): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.863:429084): arch=c000003e syscall=9 success=yes exit=140015472496640 a0=0 a1=183fe a2=1 a3=2 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=MMAP msg=audit(1548380557.863:429084): fd=3 flags=0x2
+type=UNKNOWN[1327] msg=audit(1548380557.863:429084): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.863:429085): arch=c000003e syscall=3 success=yes exit=0 a0=3 a1=183fe a2=1 a3=2 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.863:429085): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.863:429086): arch=c000003e syscall=21 success=no exit=-2 a0=7f57e46189fd a1=0 a2=7f57e4808294 a3=646c items=1 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=CWD msg=audit(1548380557.863:429086):  cwd="/home/shaila/Documents/work_example/bashc-3.0"
+type=PATH msg=audit(1548380557.863:429086): item=0 name="/etc/ld.so.nohwcap" nametype=UNKNOWN
+type=UNKNOWN[1327] msg=audit(1548380557.863:429086): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.863:429087): arch=c000003e syscall=2 success=yes exit=3 a0=7f57e4810145 a1=80000 a2=7f57e48201c8 a3=40e566 items=1 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=CWD msg=audit(1548380557.863:429087):  cwd="/home/shaila/Documents/work_example/bashc-3.0"
+type=PATH msg=audit(1548380557.863:429087): item=0 name="/lib/x86_64-linux-gnu/libtinfo.so.5" inode=267727 dev=08:01 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=UNKNOWN[1327] msg=audit(1548380557.863:429087): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.863:429088): arch=c000003e syscall=0 success=yes exit=832 a0=3 a1=7fff35852940 a2=340 a3=40e566 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.863:429088): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.863:429089): arch=c000003e syscall=5 success=yes exit=0 a0=3 a1=7fff358527f0 a2=7fff358527f0 a3=3 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.863:429089): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.863:429090): arch=c000003e syscall=9 success=yes exit=140015472492544 a0=0 a1=1000 a2=3 a3=22 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.863:429090): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.863:429091): arch=c000003e syscall=9 success=yes exit=140015468097536 a0=0 a1=228ce0 a2=5 a3=802 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=MMAP msg=audit(1548380557.863:429091): fd=3 flags=0x802
+type=UNKNOWN[1327] msg=audit(1548380557.863:429091): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.863:429092): arch=c000003e syscall=10 success=yes exit=0 a0=7f57e43f8000 a1=1ff000 a2=0 a3=802 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.863:429092): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.863:429093): arch=c000003e syscall=9 success=yes exit=140015470342144 a0=7f57e45f7000 a1=5000 a2=3 a3=812 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=MMAP msg=audit(1548380557.863:429093): fd=3 flags=0x812
+type=UNKNOWN[1327] msg=audit(1548380557.863:429093): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.863:429094): arch=c000003e syscall=3 success=yes exit=0 a0=3 a1=7f57e4804040 a2=0 a3=31 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.863:429094): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.863:429095): arch=c000003e syscall=21 success=no exit=-2 a0=7f57e46189fd a1=0 a2=ffffffffffffff00 a3=7f57e4820570 items=1 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=CWD msg=audit(1548380557.863:429095):  cwd="/home/shaila/Documents/work_example/bashc-3.0"
+type=PATH msg=audit(1548380557.863:429095): item=0 name="/etc/ld.so.nohwcap" nametype=UNKNOWN
+type=UNKNOWN[1327] msg=audit(1548380557.863:429095): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.863:429096): arch=c000003e syscall=2 success=yes exit=3 a0=7f57e4819640 a1=80000 a2=7f57e48201c8 a3=40e600 items=1 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=CWD msg=audit(1548380557.863:429096):  cwd="/home/shaila/Documents/work_example/bashc-3.0"
+type=PATH msg=audit(1548380557.863:429096): item=0 name="/lib/x86_64-linux-gnu/libdl.so.2" inode=269338 dev=08:01 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=UNKNOWN[1327] msg=audit(1548380557.863:429096): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.863:429097): arch=c000003e syscall=0 success=yes exit=832 a0=3 a1=7fff35852910 a2=340 a3=40e600 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.863:429097): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.863:429098): arch=c000003e syscall=5 success=yes exit=0 a0=3 a1=7fff358527c0 a2=7fff358527c0 a3=3 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.863:429098): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.863:429099): arch=c000003e syscall=9 success=yes exit=140015465984000 a0=0 a1=203130 a2=5 a3=802 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=MMAP msg=audit(1548380557.863:429099): fd=3 flags=0x802
+type=UNKNOWN[1327] msg=audit(1548380557.863:429099): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.863:429100): arch=c000003e syscall=10 success=yes exit=0 a0=7f57e41d2000 a1=1ff000 a2=0 a3=802 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.863:429100): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.863:429101): arch=c000003e syscall=9 success=yes exit=140015468089344 a0=7f57e43d1000 a1=2000 a2=3 a3=812 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=MMAP msg=audit(1548380557.863:429101): fd=3 flags=0x812
+type=UNKNOWN[1327] msg=audit(1548380557.863:429101): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.863:429102): arch=c000003e syscall=3 success=yes exit=0 a0=3 a1=7f57e4804530 a2=0 a3=31 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.863:429102): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.863:429103): arch=c000003e syscall=21 success=no exit=-2 a0=7f57e46189fd a1=0 a2=ff352d6e722d6261 a3=7f57e4820570 items=1 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=CWD msg=audit(1548380557.863:429103):  cwd="/home/shaila/Documents/work_example/bashc-3.0"
+type=PATH msg=audit(1548380557.863:429103): item=0 name="/etc/ld.so.nohwcap" nametype=UNKNOWN
+type=UNKNOWN[1327] msg=audit(1548380557.863:429103): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.863:429104): arch=c000003e syscall=2 success=yes exit=3 a0=7f57e481abd5 a1=80000 a2=7f57e48201c8 a3=40e627 items=1 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=CWD msg=audit(1548380557.863:429104):  cwd="/home/shaila/Documents/work_example/bashc-3.0"
+type=PATH msg=audit(1548380557.863:429104): item=0 name="/lib/x86_64-linux-gnu/libc.so.6" inode=277281 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=UNKNOWN[1327] msg=audit(1548380557.863:429104): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.863:429105): arch=c000003e syscall=0 success=yes exit=832 a0=3 a1=7fff358528e0 a2=340 a3=40e627 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.863:429105): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.863:429106): arch=c000003e syscall=5 success=yes exit=0 a0=3 a1=7fff35852790 a2=7fff35852790 a3=3 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.863:429106): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.863:429107): arch=c000003e syscall=9 success=yes exit=140015462014976 a0=0 a1=3c82c0 a2=5 a3=802 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=MMAP msg=audit(1548380557.863:429107): fd=3 flags=0x802
+type=UNKNOWN[1327] msg=audit(1548380557.863:429107): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.863:429108): arch=c000003e syscall=10 success=yes exit=0 a0=7f57e3fc4000 a1=200000 a2=0 a3=802 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.863:429108): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.863:429109): arch=c000003e syscall=9 success=yes exit=140015465938944 a0=7f57e41c4000 a1=6000 a2=3 a3=812 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=MMAP msg=audit(1548380557.863:429109): fd=3 flags=0x812
+type=UNKNOWN[1327] msg=audit(1548380557.863:429109): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.863:429110): arch=c000003e syscall=9 success=yes exit=140015465963520 a0=7f57e41ca000 a1=42c0 a2=3 a3=32 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.863:429110): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.863:429111): arch=c000003e syscall=3 success=yes exit=0 a0=3 a1=7f57e4804a18 a2=0 a3=31 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.863:429111): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.863:429112): arch=c000003e syscall=9 success=yes exit=140015472488448 a0=0 a1=1000 a2=3 a3=22 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.863:429112): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.863:429113): arch=c000003e syscall=9 success=yes exit=140015472480256 a0=0 a1=2000 a2=3 a3=22 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.863:429113): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.863:429114): arch=c000003e syscall=158 success=yes exit=0 a0=1002 a1=7f57e4801740 a2=7f57e4802050 a3=22 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.863:429114): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.863:429115): arch=c000003e syscall=10 success=yes exit=0 a0=7f57e41c4000 a1=4000 a2=1 a3=7fff35852bf0 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.863:429115): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.863:429116): arch=c000003e syscall=10 success=yes exit=0 a0=7f57e43d1000 a1=1000 a2=1 a3=0 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.863:429116): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.863:429117): arch=c000003e syscall=10 success=yes exit=0 a0=7f57e45f7000 a1=4000 a2=1 a3=0 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.863:429117): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.863:429118): arch=c000003e syscall=10 success=yes exit=0 a0=6b7000 a1=1000 a2=1 a3=0 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.863:429118): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.863:429119): arch=c000003e syscall=10 success=yes exit=0 a0=7f57e481e000 a1=1000 a2=1 a3=0 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.863:429119): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.863:429120): arch=c000003e syscall=11 success=yes exit=0 a0=7f57e4805000 a1=183fe a2=290ab a3=0 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.863:429120): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.863:429121): arch=c000003e syscall=14 success=yes exit=0 a0=0 a1=0 a2=6c60e8 a3=8 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.863:429121): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.863:429122): arch=c000003e syscall=2 success=yes exit=3 a0=48acf7 a1=802 a2=6c60e8 a3=7fff35852cf0 items=1 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=CWD msg=audit(1548380557.863:429122):  cwd="/home/shaila/Documents/work_example/bashc-3.0"
+type=PATH msg=audit(1548380557.863:429122): item=0 name="/dev/tty" inode=1036 dev=00:06 mode=020666 ouid=0 ogid=5 rdev=05:00 nametype=NORMAL
+type=UNKNOWN[1327] msg=audit(1548380557.863:429122): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.863:429123): arch=c000003e syscall=3 success=yes exit=0 a0=3 a1=802 a2=6c60e8 a3=7fff35852d00 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.863:429123): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.863:429124): arch=c000003e syscall=12 success=yes exit=39841792 a0=0 a1=0 a2=1000 a3=7fff358527e0 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.863:429124): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.863:429125): arch=c000003e syscall=12 success=yes exit=39845888 a0=2600000 a1=2600000 a2=2000 a3=7fff358527e0 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.863:429125): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.863:429126): arch=c000003e syscall=2 success=yes exit=3 a0=7f57e3f8eb20 a1=80000 a2=5 a3=7fff35852950 items=1 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=CWD msg=audit(1548380557.863:429126):  cwd="/home/shaila/Documents/work_example/bashc-3.0"
+type=PATH msg=audit(1548380557.863:429126): item=0 name="/usr/lib/locale/locale-archive" inode=7945 dev=08:01 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=UNKNOWN[1327] msg=audit(1548380557.863:429126): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.863:429127): arch=c000003e syscall=5 success=yes exit=0 a0=3 a1=7f57e41c9b60 a2=7f57e41c9b60 a3=7fff35852950 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.863:429127): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.863:429128): arch=c000003e syscall=9 success=yes exit=140015454797824 a0=0 a1=6e1e30 a2=1 a3=2 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=MMAP msg=audit(1548380557.863:429128): fd=3 flags=0x2
+type=UNKNOWN[1327] msg=audit(1548380557.863:429128): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.863:429129): arch=c000003e syscall=3 success=yes exit=0 a0=3 a1=6e1e30 a2=58e8 a3=2 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.863:429129): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.863:429130): arch=c000003e syscall=12 success=yes exit=39849984 a0=2601000 a1=2601000 a2=1000 a3=4 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.863:429130): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.863:429131): arch=c000003e syscall=12 success=yes exit=39854080 a0=2602000 a1=2602000 a2=1000 a3=6 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.863:429131): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.863:429132): arch=c000003e syscall=102 success=yes exit=0 a0=25ff1ed a1=488917 a2=0 a3=7fff35852d00 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.863:429132): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.863:429133): arch=c000003e syscall=104 success=yes exit=0 a0=0 a1=488917 a2=0 a3=7fff35852d00 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.863:429133): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.863:429134): arch=c000003e syscall=107 success=yes exit=0 a0=0 a1=488917 a2=0 a3=7fff35852d00 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.863:429134): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.863:429135): arch=c000003e syscall=108 success=yes exit=0 a0=0 a1=488917 a2=0 a3=7fff35852d00 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.863:429135): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.863:429136): arch=c000003e syscall=14 success=yes exit=0 a0=0 a1=0 a2=6c55a8 a3=8 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.863:429136): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.863:429137): arch=c000003e syscall=12 success=yes exit=39858176 a0=2603000 a1=2603000 a2=1000 a3=6 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.863:429137): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.863:429138): arch=c000003e syscall=2 success=yes exit=3 a0=7f57e3f88335 a1=80000 a2=1b6 a3=7fff35852be0 items=1 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=CWD msg=audit(1548380557.863:429138):  cwd="/home/shaila/Documents/work_example/bashc-3.0"
+type=PATH msg=audit(1548380557.863:429138): item=0 name="/proc/meminfo" inode=4026531989 dev=00:04 mode=0100444 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=UNKNOWN[1327] msg=audit(1548380557.863:429138): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.863:429139): arch=c000003e syscall=5 success=yes exit=0 a0=3 a1=7fff35850b70 a2=7fff35850b70 a3=0 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.863:429139): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429140): arch=c000003e syscall=9 success=yes exit=140015472594944 a0=0 a1=1000 a2=3 a3=22 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429140): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429141): arch=c000003e syscall=0 success=yes exit=1024 a0=3 a1=7f57e481d000 a2=400 a3=22 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429141): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429142): arch=c000003e syscall=3 success=yes exit=0 a0=3 a1=fbada408 a2=8 a3=786644 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429142): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429143): arch=c000003e syscall=11 success=yes exit=0 a0=7f57e481d000 a1=1000 a2=0 a3=786644 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429143): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429144): arch=c000003e syscall=12 success=yes exit=39862272 a0=2604000 a1=2604000 a2=1000 a3=786644 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429144): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429145): arch=c000003e syscall=13 success=yes exit=0 a0=11 a1=7fff35852b70 a2=7fff35852c10 a3=8 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429145): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429146): arch=c000003e syscall=13 success=yes exit=0 a0=11 a1=7fff35852b70 a2=7fff35852c10 a3=8 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429146): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429147): arch=c000003e syscall=13 success=yes exit=0 a0=2 a1=7fff35852b70 a2=7fff35852c10 a3=8 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429147): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429148): arch=c000003e syscall=13 success=yes exit=0 a0=2 a1=7fff35852b70 a2=7fff35852c10 a3=8 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429148): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429149): arch=c000003e syscall=13 success=yes exit=0 a0=3 a1=7fff35852b70 a2=7fff35852c10 a3=8 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429149): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429150): arch=c000003e syscall=13 success=yes exit=0 a0=3 a1=7fff35852b70 a2=7fff35852c10 a3=8 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429150): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429151): arch=c000003e syscall=13 success=yes exit=0 a0=f a1=7fff35852b70 a2=7fff35852c10 a3=8 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429151): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429152): arch=c000003e syscall=13 success=yes exit=0 a0=f a1=7fff35852b70 a2=7fff35852c10 a3=8 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429152): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429153): arch=c000003e syscall=13 success=yes exit=0 a0=1 a1=7fff35852b60 a2=7fff35852c00 a3=8 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429153): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429154): arch=c000003e syscall=13 success=yes exit=0 a0=2 a1=7fff35852b60 a2=7fff35852c00 a3=8 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429154): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429155): arch=c000003e syscall=13 success=yes exit=0 a0=4 a1=7fff35852b60 a2=7fff35852c00 a3=8 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429155): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429156): arch=c000003e syscall=13 success=yes exit=0 a0=5 a1=7fff35852b60 a2=7fff35852c00 a3=8 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429156): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429157): arch=c000003e syscall=13 success=yes exit=0 a0=6 a1=7fff35852b60 a2=7fff35852c00 a3=8 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429157): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429158): arch=c000003e syscall=13 success=yes exit=0 a0=8 a1=7fff35852b60 a2=7fff35852c00 a3=8 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429158): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429159): arch=c000003e syscall=13 success=yes exit=0 a0=7 a1=7fff35852b60 a2=7fff35852c00 a3=8 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429159): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429160): arch=c000003e syscall=13 success=yes exit=0 a0=b a1=7fff35852b60 a2=7fff35852c00 a3=8 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429160): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429161): arch=c000003e syscall=13 success=yes exit=0 a0=1f a1=7fff35852b60 a2=7fff35852c00 a3=8 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429161): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429162): arch=c000003e syscall=13 success=yes exit=0 a0=d a1=7fff35852b60 a2=7fff35852c00 a3=8 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429162): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429163): arch=c000003e syscall=13 success=yes exit=0 a0=e a1=7fff35852b60 a2=7fff35852c00 a3=8 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429163): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429164): arch=c000003e syscall=13 success=yes exit=0 a0=f a1=7fff35852b60 a2=7fff35852c00 a3=8 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429164): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429165): arch=c000003e syscall=13 success=yes exit=0 a0=18 a1=7fff35852b60 a2=7fff35852c00 a3=8 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429165): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429166): arch=c000003e syscall=13 success=yes exit=0 a0=19 a1=7fff35852b60 a2=7fff35852c00 a3=8 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429166): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429167): arch=c000003e syscall=13 success=yes exit=0 a0=1a a1=7fff35852b60 a2=7fff35852c00 a3=8 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429167): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429168): arch=c000003e syscall=13 success=yes exit=0 a0=a a1=7fff35852b60 a2=7fff35852c00 a3=8 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429168): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429169): arch=c000003e syscall=13 success=yes exit=0 a0=c a1=7fff35852b60 a2=7fff35852c00 a3=8 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429169): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429170): arch=c000003e syscall=14 success=yes exit=0 a0=0 a1=0 a2=6c6000 a3=8 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429170): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429171): arch=c000003e syscall=13 success=yes exit=0 a0=3 a1=7fff35852b70 a2=7fff35852c10 a3=8 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429171): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429172): arch=c000003e syscall=13 success=yes exit=0 a0=2 a1=7fff35852b70 a2=7fff35852c10 a3=8 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429172): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429173): arch=c000003e syscall=13 success=yes exit=0 a0=f a1=7fff35852b70 a2=7fff35852c10 a3=8 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429173): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429174): arch=c000003e syscall=13 success=yes exit=0 a0=2 a1=7fff35852b70 a2=7fff35852c10 a3=8 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429174): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429175): arch=c000003e syscall=13 success=yes exit=0 a0=14 a1=7fff35852b70 a2=7fff35852c10 a3=8 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429175): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429176): arch=c000003e syscall=13 success=yes exit=0 a0=16 a1=7fff35852b70 a2=7fff35852c10 a3=8 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429176): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429177): arch=c000003e syscall=13 success=yes exit=0 a0=15 a1=7fff35852b70 a2=7fff35852c10 a3=8 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429177): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429178): arch=c000003e syscall=13 success=yes exit=0 a0=1c a1=7fff35852b70 a2=7fff35852c10 a3=8 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429178): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429179): arch=c000003e syscall=63 success=yes exit=0 a0=7fff35852c60 a1=ff a2=0 a3=7fff35852be0 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429179): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429180): arch=c000003e syscall=41 success=yes exit=3 a0=1 a1=80801 a2=0 a3=7fff35852bc0 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429180): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429181): arch=c000003e syscall=42 success=no exit=-2 a0=3 a1=7fff35852970 a2=6e a3=7fff35852bc0 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=SOCKADDR msg=audit(1548380557.867:429181): saddr=01002F7661722F72756E2F6E7363642F736F636B6574000008006002000000000500000000000000F7B560E4577F000001000000FF7F000000000000000000000100000000000000C0EBE0E3577F0000050000000000000026AEEFE3577F00000700000000000000070000000000
+type=UNKNOWN[1327] msg=audit(1548380557.867:429181): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429182): arch=c000003e syscall=3 success=yes exit=0 a0=3 a1=7fff35852970 a2=6e a3=7fff35852bc0 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429182): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429183): arch=c000003e syscall=41 success=yes exit=3 a0=1 a1=80801 a2=0 a3=7fff35852bc0 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429183): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429184): arch=c000003e syscall=42 success=no exit=-2 a0=3 a1=7fff35852b00 a2=6e a3=7fff35852bc0 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=SOCKADDR msg=audit(1548380557.867:429184): saddr=01002F7661722F72756E2F6E7363642F736F636B65740000C80182E4577F00000100000000000000C80182E4577F0000B004000000000000703460020000000000000000000000003C5F60E4577F0000802B8535FF7F0000CE4AAEFF000000000300000000000000050000000000
+type=UNKNOWN[1327] msg=audit(1548380557.867:429184): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429185): arch=c000003e syscall=3 success=yes exit=0 a0=3 a1=7fff35852b00 a2=6e a3=7fff35852bc0 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429185): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429186): arch=c000003e syscall=2 success=yes exit=3 a0=7f57e3f89452 a1=80000 a2=1b6 a3=7fff35852bc0 items=1 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=CWD msg=audit(1548380557.867:429186):  cwd="/home/shaila/Documents/work_example/bashc-3.0"
+type=PATH msg=audit(1548380557.867:429186): item=0 name="/etc/nsswitch.conf" inode=131455 dev=08:01 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=UNKNOWN[1327] msg=audit(1548380557.867:429186): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429187): arch=c000003e syscall=5 success=yes exit=0 a0=3 a1=7fff35852b20 a2=7fff35852b20 a3=0 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429187): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429188): arch=c000003e syscall=9 success=yes exit=140015472594944 a0=0 a1=1000 a2=3 a3=22 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429188): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429189): arch=c000003e syscall=0 success=yes exit=507 a0=3 a1=7f57e481d000 a2=1000 a3=22 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429189): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429190): arch=c000003e syscall=0 success=yes exit=0 a0=3 a1=7f57e481d000 a2=1000 a3=4f4e5b206c616d69 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429190): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429191): arch=c000003e syscall=3 success=yes exit=0 a0=3 a1=fbada418 a2=8 a3=4f4e5b206c616d69 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429191): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429192): arch=c000003e syscall=11 success=yes exit=0 a0=7f57e481d000 a1=1000 a2=0 a3=4f4e5b206c616d69 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429192): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429193): arch=c000003e syscall=2 success=yes exit=3 a0=7f57e4618f33 a1=80000 a2=1 a3=7f57e4804d80 items=1 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=CWD msg=audit(1548380557.867:429193):  cwd="/home/shaila/Documents/work_example/bashc-3.0"
+type=PATH msg=audit(1548380557.867:429193): item=0 name="/etc/ld.so.cache" inode=132539 dev=08:01 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=UNKNOWN[1327] msg=audit(1548380557.867:429193): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429194): arch=c000003e syscall=5 success=yes exit=0 a0=3 a1=7fff35852340 a2=7fff35852340 a3=7f57e4804d80 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429194): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429195): arch=c000003e syscall=9 success=yes exit=140015472496640 a0=0 a1=183fe a2=1 a3=2 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=MMAP msg=audit(1548380557.867:429195): fd=3 flags=0x2
+type=UNKNOWN[1327] msg=audit(1548380557.867:429195): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429196): arch=c000003e syscall=3 success=yes exit=0 a0=3 a1=183fe a2=1 a3=2 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429196): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429197): arch=c000003e syscall=21 success=no exit=-2 a0=7f57e46189fd a1=0 a2=7f57e4808294 a3=646c items=1 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=CWD msg=audit(1548380557.867:429197):  cwd="/home/shaila/Documents/work_example/bashc-3.0"
+type=PATH msg=audit(1548380557.867:429197): item=0 name="/etc/ld.so.nohwcap" nametype=UNKNOWN
+type=UNKNOWN[1327] msg=audit(1548380557.867:429197): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429198): arch=c000003e syscall=2 success=yes exit=3 a0=7f57e4813a6b a1=80000 a2=7f57e48049d8 a3=7fff35852cb2 items=1 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=CWD msg=audit(1548380557.867:429198):  cwd="/home/shaila/Documents/work_example/bashc-3.0"
+type=PATH msg=audit(1548380557.867:429198): item=0 name="/lib/x86_64-linux-gnu/libnss_compat.so.2" inode=267702 dev=08:01 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=UNKNOWN[1327] msg=audit(1548380557.867:429198): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429199): arch=c000003e syscall=0 success=yes exit=832 a0=3 a1=7fff358524e0 a2=340 a3=7fff35852cb2 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429199): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429200): arch=c000003e syscall=5 success=yes exit=0 a0=3 a1=7fff35852390 a2=7fff35852390 a3=3 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429200): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429201): arch=c000003e syscall=9 success=yes exit=140015452659712 a0=0 a1=209548 a2=5 a3=802 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=MMAP msg=audit(1548380557.867:429201): fd=3 flags=0x802
+type=UNKNOWN[1327] msg=audit(1548380557.867:429201): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429202): arch=c000003e syscall=10 success=yes exit=0 a0=7f57e3523000 a1=1ff000 a2=0 a3=802 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429202): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429203): arch=c000003e syscall=9 success=yes exit=140015454789632 a0=7f57e3722000 a1=2000 a2=3 a3=812 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=MMAP msg=audit(1548380557.867:429203): fd=3 flags=0x812
+type=UNKNOWN[1327] msg=audit(1548380557.867:429203): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429204): arch=c000003e syscall=3 success=yes exit=0 a0=3 a1=2603848 a2=0 a3=31 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429204): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429205): arch=c000003e syscall=21 success=no exit=-2 a0=7f57e46189fd a1=0 a2=ffffffffff000000 a3=2603bb0 items=1 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=CWD msg=audit(1548380557.867:429205):  cwd="/home/shaila/Documents/work_example/bashc-3.0"
+type=PATH msg=audit(1548380557.867:429205): item=0 name="/etc/ld.so.nohwcap" nametype=UNKNOWN
+type=UNKNOWN[1327] msg=audit(1548380557.867:429205): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429206): arch=c000003e syscall=2 success=yes exit=3 a0=7f57e4813b3b a1=80000 a2=2603808 a3=7f57e351abe2 items=1 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=CWD msg=audit(1548380557.867:429206):  cwd="/home/shaila/Documents/work_example/bashc-3.0"
+type=PATH msg=audit(1548380557.867:429206): item=0 name="/lib/x86_64-linux-gnu/libnsl.so.1" inode=269337 dev=08:01 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=UNKNOWN[1327] msg=audit(1548380557.867:429206): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429207): arch=c000003e syscall=0 success=yes exit=832 a0=3 a1=7fff35852240 a2=340 a3=7f57e351abe2 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429207): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429208): arch=c000003e syscall=5 success=yes exit=0 a0=3 a1=7fff358520f0 a2=7fff358520f0 a3=3 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429208): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429209): arch=c000003e syscall=12 success=yes exit=39866368 a0=2605000 a1=2605000 a2=1000 a3=3 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429209): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429210): arch=c000003e syscall=9 success=yes exit=140015450456064 a0=0 a1=219ad8 a2=5 a3=802 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=MMAP msg=audit(1548380557.867:429210): fd=3 flags=0x802
+type=UNKNOWN[1327] msg=audit(1548380557.867:429210): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429211): arch=c000003e syscall=10 success=yes exit=0 a0=7f57e3317000 a1=1ff000 a2=0 a3=802 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429211): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429212): arch=c000003e syscall=9 success=yes exit=140015452643328 a0=7f57e3516000 a1=2000 a2=3 a3=812 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=MMAP msg=audit(1548380557.867:429212): fd=3 flags=0x812
+type=UNKNOWN[1327] msg=audit(1548380557.867:429212): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429213): arch=c000003e syscall=9 success=yes exit=140015452651520 a0=7f57e3518000 a1=1ad8 a2=3 a3=32 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429213): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429214): arch=c000003e syscall=3 success=yes exit=0 a0=3 a1=2604048 a2=0 a3=31 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429214): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429215): arch=c000003e syscall=10 success=yes exit=0 a0=7f57e3516000 a1=1000 a2=1 a3=0 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429215): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429216): arch=c000003e syscall=10 success=yes exit=0 a0=7f57e3722000 a1=1000 a2=1 a3=0 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429216): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429217): arch=c000003e syscall=11 success=yes exit=0 a0=7f57e4805000 a1=183fe a2=7fff35852a40 a3=0 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429217): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429218): arch=c000003e syscall=2 success=yes exit=3 a0=7f57e4618f33 a1=80000 a2=1 a3=7f57e4804d80 items=1 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=CWD msg=audit(1548380557.867:429218):  cwd="/home/shaila/Documents/work_example/bashc-3.0"
+type=PATH msg=audit(1548380557.867:429218): item=0 name="/etc/ld.so.cache" inode=132539 dev=08:01 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=UNKNOWN[1327] msg=audit(1548380557.867:429218): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429219): arch=c000003e syscall=5 success=yes exit=0 a0=3 a1=7fff35852250 a2=7fff35852250 a3=7f57e4804d80 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429219): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429220): arch=c000003e syscall=9 success=yes exit=140015472496640 a0=0 a1=183fe a2=1 a3=2 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=MMAP msg=audit(1548380557.867:429220): fd=3 flags=0x2
+type=UNKNOWN[1327] msg=audit(1548380557.867:429220): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429221): arch=c000003e syscall=3 success=yes exit=0 a0=3 a1=183fe a2=1 a3=2 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429221): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429222): arch=c000003e syscall=21 success=no exit=-2 a0=7f57e46189fd a1=0 a2=7f57e4808294 a3=646c items=1 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=CWD msg=audit(1548380557.867:429222):  cwd="/home/shaila/Documents/work_example/bashc-3.0"
+type=PATH msg=audit(1548380557.867:429222): item=0 name="/etc/ld.so.nohwcap" nametype=UNKNOWN
+type=UNKNOWN[1327] msg=audit(1548380557.867:429222): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429223): arch=c000003e syscall=2 success=yes exit=3 a0=7f57e4813676 a1=80000 a2=7f57e48049d8 a3=7fff35852bbf items=1 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=CWD msg=audit(1548380557.867:429223):  cwd="/home/shaila/Documents/work_example/bashc-3.0"
+type=PATH msg=audit(1548380557.867:429223): item=0 name="/lib/x86_64-linux-gnu/libnss_nis.so.2" inode=267669 dev=08:01 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=UNKNOWN[1327] msg=audit(1548380557.867:429223): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429224): arch=c000003e syscall=0 success=yes exit=832 a0=3 a1=7fff358523f0 a2=340 a3=7fff35852bbf items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429224): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429225): arch=c000003e syscall=5 success=yes exit=0 a0=3 a1=7fff358522a0 a2=7fff358522a0 a3=3 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429225): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429226): arch=c000003e syscall=9 success=yes exit=140015448309760 a0=0 a1=20b628 a2=5 a3=802 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=MMAP msg=audit(1548380557.867:429226): fd=3 flags=0x802
+type=UNKNOWN[1327] msg=audit(1548380557.867:429226): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429227): arch=c000003e syscall=10 success=yes exit=0 a0=7f57e30ff000 a1=1ff000 a2=0 a3=802 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429227): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429228): arch=c000003e syscall=9 success=yes exit=140015450447872 a0=7f57e32fe000 a1=2000 a2=3 a3=812 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=MMAP msg=audit(1548380557.867:429228): fd=3 flags=0x812
+type=UNKNOWN[1327] msg=audit(1548380557.867:429228): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429229): arch=c000003e syscall=3 success=yes exit=0 a0=3 a1=2604848 a2=0 a3=31 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429229): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429230): arch=c000003e syscall=21 success=no exit=-2 a0=7f57e46189fd a1=0 a2=ff00000000000000 a3=2604bb0 items=1 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=CWD msg=audit(1548380557.867:429230):  cwd="/home/shaila/Documents/work_example/bashc-3.0"
+type=PATH msg=audit(1548380557.867:429230): item=0 name="/etc/ld.so.nohwcap" nametype=UNKNOWN
+type=UNKNOWN[1327] msg=audit(1548380557.867:429230): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429231): arch=c000003e syscall=2 success=yes exit=3 a0=7f57e4813938 a1=80000 a2=2604808 a3=7f57e30f5746 items=1 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=CWD msg=audit(1548380557.867:429231):  cwd="/home/shaila/Documents/work_example/bashc-3.0"
+type=PATH msg=audit(1548380557.867:429231): item=0 name="/lib/x86_64-linux-gnu/libnss_files.so.2" inode=267658 dev=08:01 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=UNKNOWN[1327] msg=audit(1548380557.867:429231): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429232): arch=c000003e syscall=0 success=yes exit=832 a0=3 a1=7fff35852120 a2=340 a3=7f57e30f5746 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429232): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429233): arch=c000003e syscall=5 success=yes exit=0 a0=3 a1=7fff35851fd0 a2=7fff35851fd0 a3=3 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429233): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429234): arch=c000003e syscall=12 success=yes exit=39870464 a0=2606000 a1=2606000 a2=1000 a3=3 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429234): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429235): arch=c000003e syscall=9 success=yes exit=140015446167552 a0=0 a1=20a728 a2=5 a3=802 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=MMAP msg=audit(1548380557.867:429235): fd=3 flags=0x802
+type=UNKNOWN[1327] msg=audit(1548380557.867:429235): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429236): arch=c000003e syscall=10 success=yes exit=0 a0=7f57e2ef3000 a1=1ff000 a2=0 a3=802 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429236): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429237): arch=c000003e syscall=9 success=yes exit=140015448301568 a0=7f57e30f2000 a1=2000 a2=3 a3=812 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=MMAP msg=audit(1548380557.867:429237): fd=3 flags=0x812
+type=UNKNOWN[1327] msg=audit(1548380557.867:429237): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429238): arch=c000003e syscall=3 success=yes exit=0 a0=3 a1=2605048 a2=0 a3=31 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429238): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429239): arch=c000003e syscall=10 success=yes exit=0 a0=7f57e30f2000 a1=1000 a2=1 a3=0 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429239): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429240): arch=c000003e syscall=10 success=yes exit=0 a0=7f57e32fe000 a1=1000 a2=1 a3=0 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429240): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429241): arch=c000003e syscall=11 success=yes exit=0 a0=7f57e4805000 a1=183fe a2=7fff35852950 a3=0 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429241): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429242): arch=c000003e syscall=12 success=yes exit=39874560 a0=2607000 a1=2607000 a2=1000 a3=6 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429242): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429243): arch=c000003e syscall=2 success=yes exit=3 a0=7f57e35213ac a1=80000 a2=1b6 a3=6 items=1 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=CWD msg=audit(1548380557.867:429243):  cwd="/home/shaila/Documents/work_example/bashc-3.0"
+type=PATH msg=audit(1548380557.867:429243): item=0 name="/etc/passwd" inode=175293 dev=08:01 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=UNKNOWN[1327] msg=audit(1548380557.867:429243): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429244): arch=c000003e syscall=8 success=yes exit=0 a0=3 a1=0 a2=1 a3=7fff358529d0 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429244): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429245): arch=c000003e syscall=5 success=yes exit=0 a0=3 a1=7fff35852ad0 a2=7fff35852ad0 a3=0 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429245): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429246): arch=c000003e syscall=9 success=yes exit=140015472594944 a0=0 a1=77b a2=1 a3=1 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=MMAP msg=audit(1548380557.867:429246): fd=3 flags=0x1
+type=UNKNOWN[1327] msg=audit(1548380557.867:429246): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429247): arch=c000003e syscall=8 success=yes exit=1915 a0=3 a1=77b a2=0 a3=1 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429247): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429248): arch=c000003e syscall=11 success=yes exit=0 a0=7f57e481d000 a1=77b a2=8 a3=7fff358529d0 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429248): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429249): arch=c000003e syscall=3 success=yes exit=0 a0=3 a1=77b a2=8 a3=7fff358529d0 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429249): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429250): arch=c000003e syscall=12 success=yes exit=39878656 a0=2608000 a1=2608000 a2=1000 a3=8 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429250): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429251): arch=c000003e syscall=12 success=yes exit=39882752 a0=2609000 a1=2609000 a2=1000 a3=3 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429251): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429252): arch=c000003e syscall=12 success=yes exit=39886848 a0=260a000 a1=260a000 a2=1000 a3=6 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429252): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429253): arch=c000003e syscall=12 success=yes exit=39890944 a0=260b000 a1=260b000 a2=1000 a3=6 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429253): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429254): arch=c000003e syscall=12 success=yes exit=39895040 a0=260c000 a1=260c000 a2=1000 a3=2 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429254): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429255): arch=c000003e syscall=12 success=yes exit=39899136 a0=260d000 a1=260d000 a2=1000 a3=3 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429255): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429256): arch=c000003e syscall=4 success=yes exit=0 a0=2608e08 a1=7fff35852c30 a2=7fff35852c30 a3=7fff358529e0 items=1 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=CWD msg=audit(1548380557.867:429256):  cwd="/home/shaila/Documents/work_example/bashc-3.0"
+type=PATH msg=audit(1548380557.867:429256): item=0 name="/home/shaila/Documents/work_example/bashc-3.0" inode=533638 dev=08:01 mode=040775 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=UNKNOWN[1327] msg=audit(1548380557.867:429256): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429257): arch=c000003e syscall=4 success=yes exit=0 a0=4977ba a1=7fff35852cc0 a2=7fff35852cc0 a3=7fff358529e0 items=1 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=CWD msg=audit(1548380557.867:429257):  cwd="/home/shaila/Documents/work_example/bashc-3.0"
+type=PATH msg=audit(1548380557.867:429257): item=0 name="." inode=533638 dev=08:01 mode=040775 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=UNKNOWN[1327] msg=audit(1548380557.867:429257): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429258): arch=c000003e syscall=39 success=yes exit=6770 a0=260c348 a1=cf a2=0 a3=7fff35852b50 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429258): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429259): arch=c000003e syscall=110 success=yes exit=20990 a0=2 a1=0 a2=2 a3=7fff35852b20 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429259): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429260): arch=c000003e syscall=12 success=yes exit=39903232 a0=260e000 a1=260e000 a2=1000 a3=2 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429260): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429261): arch=c000003e syscall=12 success=yes exit=39907328 a0=260f000 a1=260f000 a2=1000 a3=2 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429261): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429262): arch=c000003e syscall=111 success=yes exit=6769 a0=0 a1=260e1e1 a2=0 a3=7fff35852bd0 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429262): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429263): arch=c000003e syscall=32 success=yes exit=3 a0=2 a1=1 a2=0 a3=7fff35852bd0 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429263): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429264): arch=c000003e syscall=97 success=yes exit=0 a0=7 a1=7fff35852db0 a2=ffffffff a3=7fff35852b90 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429264): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429265): arch=c000003e syscall=72 success=no exit=-9 a0=ff a1=1 a2=7fff35852ddc a3=7fff35852b90 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429265): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429266): arch=c000003e syscall=33 success=yes exit=255 a0=3 a1=ff a2=ffffffffffffff60 a3=7fff35852b90 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429266): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429267): arch=c000003e syscall=3 success=yes exit=0 a0=3 a1=ff a2=ffffffffffffff60 a3=7fff35852b90 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429267): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429268): arch=c000003e syscall=16 success=yes exit=0 a0=ff a1=540f a2=7fff35852df0 a3=7fff35852bd0 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429268): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429269): arch=c000003e syscall=109 success=yes exit=0 a0=0 a1=1a72 a2=0 a3=7fff35852bd0 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429269): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429270): arch=c000003e syscall=14 success=yes exit=0 a0=0 a1=7fff35852cf0 a2=7fff35852d70 a3=8 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429270): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429271): arch=c000003e syscall=16 success=yes exit=0 a0=ff a1=5410 a2=7fff35852cdc a3=7fff35852ab0 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429271): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429272): arch=c000003e syscall=14 success=yes exit=0 a0=2 a1=7fff35852d70 a2=0 a3=8 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429272): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429273): arch=c000003e syscall=72 success=yes exit=0 a0=ff a1=2 a2=1 a3=8 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429273): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429274): arch=c000003e syscall=13 success=yes exit=0 a0=11 a1=7fff35852b70 a2=7fff35852c10 a3=8 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429274): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429275): arch=c000003e syscall=16 success=yes exit=0 a0=ff a1=5401 a2=7fff35852dc0 a3=7fff35852bc0 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429275): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429276): arch=c000003e syscall=14 success=yes exit=0 a0=0 a1=0 a2=6c60e8 a3=8 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429276): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429277): arch=c000003e syscall=2 success=yes exit=3 a0=260e488 a1=0 a2=42ba40 a3=c items=1 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=CWD msg=audit(1548380557.867:429277):  cwd="/home/shaila/Documents/work_example/bashc-3.0"
+type=PATH msg=audit(1548380557.867:429277): item=0 name="/root/.bashrc" inode=246876 dev=08:01 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=UNKNOWN[1327] msg=audit(1548380557.867:429277): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429278): arch=c000003e syscall=5 success=yes exit=0 a0=3 a1=7fff35852d80 a2=7fff35852d80 a3=7fff35852ae0 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429278): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429279): arch=c000003e syscall=12 success=yes exit=39911424 a0=2610000 a1=2610000 a2=1000 a3=7fff35852ae0 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429279): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429280): arch=c000003e syscall=0 success=yes exit=3072 a0=3 a1=260f008 a2=c00 a3=7fff35852ae0 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429280): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429281): arch=c000003e syscall=3 success=yes exit=0 a0=3 a1=260f008 a2=c00 a3=7fff35852ae0 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429281): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429282): arch=c000003e syscall=14 success=yes exit=0 a0=0 a1=0 a2=6c5808 a3=8 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429282): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429283): arch=c000003e syscall=12 success=yes exit=39915520 a0=2611000 a1=2611000 a2=1000 a3=4 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429283): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429284): arch=c000003e syscall=14 success=yes exit=0 a0=0 a1=0 a2=6c60e8 a3=8 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429284): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429285): arch=c000003e syscall=2 success=yes exit=3 a0=7f57e3f89b90 a1=0 a2=0 a3=0 items=1 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=CWD msg=audit(1548380557.867:429285):  cwd="/home/shaila/Documents/work_example/bashc-3.0"
+type=PATH msg=audit(1548380557.867:429285): item=0 name="/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache" inode=138427 dev=08:01 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=UNKNOWN[1327] msg=audit(1548380557.867:429285): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429286): arch=c000003e syscall=5 success=yes exit=0 a0=3 a1=7fff358519f0 a2=7fff358519f0 a3=0 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429286): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429287): arch=c000003e syscall=9 success=yes exit=140015472570368 a0=0 a1=6692 a2=1 a3=1 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=MMAP msg=audit(1548380557.867:429287): fd=3 flags=0x1
+type=UNKNOWN[1327] msg=audit(1548380557.867:429287): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429288): arch=c000003e syscall=3 success=yes exit=0 a0=3 a1=6692 a2=1 a3=1 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429288): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429289): arch=c000003e syscall=14 success=yes exit=0 a0=0 a1=0 a2=6c60e8 a3=8 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429289): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429290): arch=c000003e syscall=14 success=yes exit=0 a0=0 a1=0 a2=6c60e8 a3=8 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429290): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429291): arch=c000003e syscall=14 success=yes exit=0 a0=0 a1=0 a2=6c60e8 a3=8 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429291): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429292): arch=c000003e syscall=14 success=yes exit=0 a0=0 a1=0 a2=6c60e8 a3=8 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429292): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429293): arch=c000003e syscall=14 success=yes exit=0 a0=0 a1=0 a2=6c60e8 a3=8 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429293): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429294): arch=c000003e syscall=14 success=yes exit=0 a0=0 a1=0 a2=6c3be8 a3=8 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429294): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429295): arch=c000003e syscall=14 success=yes exit=0 a0=2 a1=6c3be8 a2=0 a3=8 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429295): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429296): arch=c000003e syscall=14 success=yes exit=0 a0=0 a1=0 a2=6c60e8 a3=8 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429296): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429297): arch=c000003e syscall=14 success=yes exit=0 a0=0 a1=0 a2=6c60e8 a3=8 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429297): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429298): arch=c000003e syscall=14 success=yes exit=0 a0=0 a1=0 a2=6c60e8 a3=8 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429298): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429299): arch=c000003e syscall=14 success=yes exit=0 a0=0 a1=0 a2=6c60e8 a3=8 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429299): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429300): arch=c000003e syscall=14 success=yes exit=0 a0=0 a1=0 a2=6c60e8 a3=8 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429300): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429301): arch=c000003e syscall=14 success=yes exit=0 a0=0 a1=0 a2=6c60e8 a3=8 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429301): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429302): arch=c000003e syscall=14 success=yes exit=0 a0=0 a1=0 a2=6c60e8 a3=8 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429302): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429303): arch=c000003e syscall=14 success=yes exit=0 a0=0 a1=0 a2=6c60e8 a3=8 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429303): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429304): arch=c000003e syscall=14 success=yes exit=0 a0=0 a1=0 a2=6c60e8 a3=8 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429304): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.867:429305): arch=c000003e syscall=14 success=yes exit=0 a0=0 a1=0 a2=6c60e8 a3=8 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.867:429305): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.875:429306): arch=c000003e syscall=14 success=yes exit=0 a0=0 a1=0 a2=6c60e8 a3=8 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.875:429306): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.875:429307): arch=c000003e syscall=2 success=yes exit=3 a0=260ee08 a1=0 a2=1b6 a3=7d0 items=1 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=CWD msg=audit(1548380557.875:429307):  cwd="/home/shaila/Documents/work_example/bashc-3.0"
+type=PATH msg=audit(1548380557.875:429307): item=0 name="/home/shaila/Documents/LocRoCon/bash/history" inode=2375199 dev=08:01 mode=0100664 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=UNKNOWN[1327] msg=audit(1548380557.875:429307): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.875:429308): arch=c000003e syscall=5 success=yes exit=0 a0=3 a1=7fff35852a80 a2=7fff35852a80 a3=7d0 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.875:429308): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.875:429309): arch=c000003e syscall=0 success=yes exit=38 a0=3 a1=260ed88 a2=26 a3=7d0 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.875:429309): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.875:429310): arch=c000003e syscall=3 success=yes exit=0 a0=3 a1=260ed88 a2=26 a3=7d0 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.875:429310): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.875:429311): arch=c000003e syscall=14 success=yes exit=0 a0=0 a1=0 a2=6c60e8 a3=8 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.875:429311): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.875:429312): arch=c000003e syscall=14 success=yes exit=0 a0=0 a1=0 a2=6c60e8 a3=8 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.875:429312): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.875:429313): arch=c000003e syscall=14 success=yes exit=0 a0=0 a1=0 a2=6c60e8 a3=8 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.875:429313): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.875:429314): arch=c000003e syscall=14 success=yes exit=0 a0=0 a1=0 a2=6c60e8 a3=8 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.875:429314): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.875:429315): arch=c000003e syscall=14 success=yes exit=0 a0=0 a1=0 a2=6c60e8 a3=8 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.875:429315): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.875:429316): arch=c000003e syscall=14 success=yes exit=0 a0=0 a1=0 a2=6c60e8 a3=8 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.875:429316): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.875:429317): arch=c000003e syscall=14 success=yes exit=0 a0=0 a1=0 a2=6c60e8 a3=8 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.875:429317): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.875:429318): arch=c000003e syscall=14 success=yes exit=0 a0=0 a1=0 a2=6c3be8 a3=8 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.875:429318): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.875:429319): arch=c000003e syscall=4 success=yes exit=0 a0=2610be8 a1=7fff35852900 a2=7fff35852900 a3=8 items=1 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=CWD msg=audit(1548380557.875:429319):  cwd="/home/shaila/Documents/work_example/bashc-3.0"
+type=PATH msg=audit(1548380557.875:429319): item=0 name="/usr/bin/lesspipe" inode=131153 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=UNKNOWN[1327] msg=audit(1548380557.875:429319): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.875:429320): arch=c000003e syscall=14 success=yes exit=0 a0=2 a1=6c3be8 a2=0 a3=8 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.875:429320): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.875:429321): arch=c000003e syscall=12 success=yes exit=39919616 a0=2612000 a1=2612000 a2=1000 a3=6 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.875:429321): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.875:429322): arch=c000003e syscall=12 success=yes exit=39923712 a0=2613000 a1=2613000 a2=1000 a3=3 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.875:429322): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.875:429323): arch=c000003e syscall=12 success=yes exit=39927808 a0=2614000 a1=2614000 a2=1000 a3=5 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.875:429323): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.875:429324): arch=c000003e syscall=22 success=yes exit=0 a0=7fff358526e0 a1=cf a2=2611a00 a3=7fff35852460 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=FD_PAIR msg=audit(1548380557.875:429324): fd0=3 fd1=4
+type=UNKNOWN[1327] msg=audit(1548380557.875:429324): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.875:429325): arch=c000003e syscall=14 success=yes exit=0 a0=0 a1=7fff35852580 a2=7fff35852600 a3=8 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.875:429325): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.875:429326): arch=c000003e syscall=56 success=yes exit=6771 a0=1200011 a1=0 a2=0 a3=7f57e4801a10 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.875:429326): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.883:429327): arch=c000003e syscall=14 success=yes exit=0 a0=2 a1=7fff35852600 a2=0 a3=8 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.883:429327): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.883:429328): arch=c000003e syscall=13 success=yes exit=0 a0=11 a1=7fff35852400 a2=7fff358524a0 a3=8 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.883:429328): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.883:429329): arch=c000003e syscall=3 success=yes exit=0 a0=4 a1=1a73 a2=7f57e3e3ccb0 a3=8 items=0 ppid=20990 pid=6770 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.883:429329): proctitle="bash"
+type=SYSCALL msg=audit(1548380557.883:429330): arch=c000003e syscall=14 success=yes exit=0 a0=2 a1=6c6000 a2=0 a3=8 items=0 ppid=6770 pid=6771 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.883:429330): proctitle=2F686F6D652F736861696C612F446F63756D656E74732F776F726B5F6578616D706C652F62617368632D332E302F62617368002D69
+type=SYSCALL msg=audit(1548380557.883:429331): arch=c000003e syscall=13 success=yes exit=0 a0=14 a1=7fff358522d0 a2=7fff35852370 a3=8 items=0 ppid=6770 pid=6771 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.883:429331): proctitle=2F686F6D652F736861696C612F446F63756D656E74732F776F726B5F6578616D706C652F62617368632D332E302F62617368002D69
+type=SYSCALL msg=audit(1548380557.883:429332): arch=c000003e syscall=13 success=yes exit=0 a0=15 a1=7fff358522d0 a2=7fff35852370 a3=8 items=0 ppid=6770 pid=6771 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.883:429332): proctitle=2F686F6D652F736861696C612F446F63756D656E74732F776F726B5F6578616D706C652F62617368632D332E302F62617368002D69
+type=SYSCALL msg=audit(1548380557.883:429333): arch=c000003e syscall=13 success=yes exit=0 a0=16 a1=7fff358522e0 a2=7fff35852380 a3=8 items=0 ppid=6770 pid=6771 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.883:429333): proctitle=2F686F6D652F736861696C612F446F63756D656E74732F776F726B5F6578616D706C652F62617368632D332E302F62617368002D69
+type=SYSCALL msg=audit(1548380557.883:429334): arch=c000003e syscall=13 success=yes exit=0 a0=2 a1=7fff358523d0 a2=7fff35852470 a3=8 items=0 ppid=6770 pid=6771 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.883:429334): proctitle=2F686F6D652F736861696C612F446F63756D656E74732F776F726B5F6578616D706C652F62617368632D332E302F62617368002D69
+type=SYSCALL msg=audit(1548380557.883:429335): arch=c000003e syscall=13 success=yes exit=0 a0=3 a1=7fff358523d0 a2=7fff35852470 a3=8 items=0 ppid=6770 pid=6771 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.883:429335): proctitle=2F686F6D652F736861696C612F446F63756D656E74732F776F726B5F6578616D706C652F62617368632D332E302F62617368002D69
+type=SYSCALL msg=audit(1548380557.883:429336): arch=c000003e syscall=13 success=yes exit=0 a0=f a1=7fff358523d0 a2=7fff35852470 a3=8 items=0 ppid=6770 pid=6771 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.883:429336): proctitle=2F686F6D652F736861696C612F446F63756D656E74732F776F726B5F6578616D706C652F62617368632D332E302F62617368002D69
+type=SYSCALL msg=audit(1548380557.883:429337): arch=c000003e syscall=13 success=yes exit=0 a0=11 a1=7fff358523d0 a2=7fff35852470 a3=8 items=0 ppid=6770 pid=6771 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.883:429337): proctitle=2F686F6D652F736861696C612F446F63756D656E74732F776F726B5F6578616D706C652F62617368632D332E302F62617368002D69
+type=SYSCALL msg=audit(1548380557.883:429338): arch=c000003e syscall=13 success=yes exit=0 a0=11 a1=7fff35852400 a2=7fff358524a0 a3=8 items=0 ppid=6770 pid=6771 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.883:429338): proctitle=2F686F6D652F736861696C612F446F63756D656E74732F776F726B5F6578616D706C652F62617368632D332E302F62617368002D69
+type=SYSCALL msg=audit(1548380557.883:429339): arch=c000003e syscall=13 success=yes exit=0 a0=2 a1=7fff35852400 a2=7fff358524a0 a3=8 items=0 ppid=6770 pid=6771 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.883:429339): proctitle=2F686F6D652F736861696C612F446F63756D656E74732F776F726B5F6578616D706C652F62617368632D332E302F62617368002D69
+type=SYSCALL msg=audit(1548380557.883:429340): arch=c000003e syscall=33 success=yes exit=1 a0=4 a1=1 a2=7f57e3e3ccb0 a3=8 items=0 ppid=6770 pid=6771 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.883:429340): proctitle=2F686F6D652F736861696C612F446F63756D656E74732F776F726B5F6578616D706C652F62617368632D332E302F62617368002D69
+type=SYSCALL msg=audit(1548380557.883:429341): arch=c000003e syscall=3 success=yes exit=0 a0=4 a1=1 a2=7f57e3e3ccb0 a3=8 items=0 ppid=6770 pid=6771 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.883:429341): proctitle=2F686F6D652F736861696C612F446F63756D656E74732F776F726B5F6578616D706C652F62617368632D332E302F62617368002D69
+type=SYSCALL msg=audit(1548380557.883:429342): arch=c000003e syscall=3 success=yes exit=0 a0=3 a1=1 a2=7f57e3e3ccb0 a3=8 items=0 ppid=6770 pid=6771 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.883:429342): proctitle=2F686F6D652F736861696C612F446F63756D656E74732F776F726B5F6578616D706C652F62617368632D332E302F62617368002D69
+type=SYSCALL msg=audit(1548380557.883:429343): arch=c000003e syscall=14 success=yes exit=0 a0=0 a1=0 a2=6c60e8 a3=8 items=0 ppid=6770 pid=6771 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.883:429343): proctitle=2F686F6D652F736861696C612F446F63756D656E74732F776F726B5F6578616D706C652F62617368632D332E302F62617368002D69
+type=SYSCALL msg=audit(1548380557.883:429344): arch=c000003e syscall=14 success=yes exit=0 a0=0 a1=0 a2=6c5808 a3=8 items=0 ppid=6770 pid=6771 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.883:429344): proctitle=2F686F6D652F736861696C612F446F63756D656E74732F776F726B5F6578616D706C652F62617368632D332E302F62617368002D69
+type=SYSCALL msg=audit(1548380557.883:429345): arch=c000003e syscall=14 success=yes exit=0 a0=0 a1=0 a2=6c60e8 a3=8 items=0 ppid=6770 pid=6771 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.883:429345): proctitle=2F686F6D652F736861696C612F446F63756D656E74732F776F726B5F6578616D706C652F62617368632D332E302F62617368002D69
+type=SYSCALL msg=audit(1548380557.883:429346): arch=c000003e syscall=4 success=yes exit=0 a0=4977ba a1=7fff358524b0 a2=7fff358524b0 a3=0 items=1 ppid=6770 pid=6771 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=CWD msg=audit(1548380557.883:429346):  cwd="/home/shaila/Documents/work_example/bashc-3.0"
+type=PATH msg=audit(1548380557.883:429346): item=0 name="." inode=533638 dev=08:01 mode=040775 ouid=1000 ogid=1000 rdev=00:00 nametype=NORMAL
+type=UNKNOWN[1327] msg=audit(1548380557.883:429346): proctitle=2F686F6D652F736861696C612F446F63756D656E74732F776F726B5F6578616D706C652F62617368632D332E302F62617368002D69
+type=SYSCALL msg=audit(1548380557.883:429347): arch=c000003e syscall=4 success=no exit=-2 a0=2613d08 a1=7fff358523d0 a2=7fff358523d0 a3=0 items=1 ppid=6770 pid=6771 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=CWD msg=audit(1548380557.883:429347):  cwd="/home/shaila/Documents/work_example/bashc-3.0"
+type=PATH msg=audit(1548380557.883:429347): item=0 name="/usr/local/sbin/lesspipe" nametype=UNKNOWN
+type=UNKNOWN[1327] msg=audit(1548380557.883:429347): proctitle=2F686F6D652F736861696C612F446F63756D656E74732F776F726B5F6578616D706C652F62617368632D332E302F62617368002D69
+type=SYSCALL msg=audit(1548380557.883:429348): arch=c000003e syscall=4 success=no exit=-2 a0=2613d08 a1=7fff358523d0 a2=7fff358523d0 a3=0 items=1 ppid=6770 pid=6771 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=CWD msg=audit(1548380557.883:429348):  cwd="/home/shaila/Documents/work_example/bashc-3.0"
+type=PATH msg=audit(1548380557.883:429348): item=0 name="/usr/local/bin/lesspipe" nametype=UNKNOWN
+type=UNKNOWN[1327] msg=audit(1548380557.883:429348): proctitle=2F686F6D652F736861696C612F446F63756D656E74732F776F726B5F6578616D706C652F62617368632D332E302F62617368002D69
+type=SYSCALL msg=audit(1548380557.883:429349): arch=c000003e syscall=4 success=no exit=-2 a0=2613988 a1=7fff358523d0 a2=7fff358523d0 a3=a items=1 ppid=6770 pid=6771 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=CWD msg=audit(1548380557.883:429349):  cwd="/home/shaila/Documents/work_example/bashc-3.0"
+type=PATH msg=audit(1548380557.883:429349): item=0 name="/usr/sbin/lesspipe" nametype=UNKNOWN
+type=UNKNOWN[1327] msg=audit(1548380557.883:429349): proctitle=2F686F6D652F736861696C612F446F63756D656E74732F776F726B5F6578616D706C652F62617368632D332E302F62617368002D69
+type=SYSCALL msg=audit(1548380557.883:429350): arch=c000003e syscall=4 success=yes exit=0 a0=2613988 a1=7fff358523d0 a2=7fff358523d0 a3=10 items=1 ppid=6770 pid=6771 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=CWD msg=audit(1548380557.883:429350):  cwd="/home/shaila/Documents/work_example/bashc-3.0"
+type=PATH msg=audit(1548380557.883:429350): item=0 name="/usr/bin/lesspipe" inode=131153 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=UNKNOWN[1327] msg=audit(1548380557.883:429350): proctitle=2F686F6D652F736861696C612F446F63756D656E74732F776F726B5F6578616D706C652F62617368632D332E302F62617368002D69
+type=SYSCALL msg=audit(1548380557.883:429351): arch=c000003e syscall=4 success=yes exit=0 a0=2613988 a1=7fff35852400 a2=7fff35852400 a3=10 items=1 ppid=6770 pid=6771 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=CWD msg=audit(1548380557.883:429351):  cwd="/home/shaila/Documents/work_example/bashc-3.0"
+type=PATH msg=audit(1548380557.883:429351): item=0 name="/usr/bin/lesspipe" inode=131153 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=UNKNOWN[1327] msg=audit(1548380557.883:429351): proctitle=2F686F6D652F736861696C612F446F63756D656E74732F776F726B5F6578616D706C652F62617368632D332E302F62617368002D69
+type=SYSCALL msg=audit(1548380557.883:429352): arch=c000003e syscall=12 success=yes exit=39931904 a0=2615000 a1=2615000 a2=1000 a3=328 items=0 ppid=6770 pid=6771 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.883:429352): proctitle=2F686F6D652F736861696C612F446F63756D656E74732F776F726B5F6578616D706C652F62617368632D332E302F62617368002D69
+type=SYSCALL msg=audit(1548380557.887:429353): arch=c000003e syscall=14 success=yes exit=0 a0=0 a1=7fff35852470 a2=7fff358524f0 a3=8 items=0 ppid=6770 pid=6771 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.887:429353): proctitle=2F686F6D652F736861696C612F446F63756D656E74732F776F726B5F6578616D706C652F62617368632D332E302F62617368002D69
+type=SYSCALL msg=audit(1548380557.887:429354): arch=c000003e syscall=56 success=yes exit=6772 a0=1200011 a1=0 a2=0 a3=7f57e4801a10 items=0 ppid=6770 pid=6771 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.887:429354): proctitle=2F686F6D652F736861696C612F446F63756D656E74732F776F726B5F6578616D706C652F62617368632D332E302F62617368002D69
+type=SYSCALL msg=audit(1548380557.887:429355): arch=c000003e syscall=14 success=yes exit=0 a0=2 a1=7fff358524f0 a2=0 a3=8 items=0 ppid=6770 pid=6771 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.887:429355): proctitle=2F686F6D652F736861696C612F446F63756D656E74732F776F726B5F6578616D706C652F62617368632D332E302F62617368002D69
+type=SYSCALL msg=audit(1548380557.887:429356): arch=c000003e syscall=14 success=yes exit=0 a0=0 a1=7fff35852360 a2=7fff358523e0 a3=8 items=0 ppid=6770 pid=6771 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.887:429356): proctitle=2F686F6D652F736861696C612F446F63756D656E74732F776F726B5F6578616D706C652F62617368632D332E302F62617368002D69
+type=SYSCALL msg=audit(1548380557.887:429358): arch=c000003e syscall=14 success=yes exit=0 a0=2 a1=7fff358523e0 a2=0 a3=8 items=0 ppid=6770 pid=6771 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=SYSCALL msg=audit(1548380557.887:429357): arch=c000003e syscall=14 success=yes exit=0 a0=2 a1=6c6000 a2=0 a3=8 items=0 ppid=6771 pid=6772 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.887:429358): proctitle=2F686F6D652F736861696C612F446F63756D656E74732F776F726B5F6578616D706C652F62617368632D332E302F62617368002D69
+type=UNKNOWN[1327] msg=audit(1548380557.887:429357): proctitle=2F686F6D652F736861696C612F446F63756D656E74732F776F726B5F6578616D706C652F62617368632D332E302F62617368002D69
+type=SYSCALL msg=audit(1548380557.887:429359): arch=c000003e syscall=14 success=yes exit=0 a0=0 a1=7fff35852450 a2=7fff358524d0 a3=8 items=0 ppid=6770 pid=6771 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.887:429359): proctitle=2F686F6D652F736861696C612F446F63756D656E74732F776F726B5F6578616D706C652F62617368632D332E302F62617368002D69
+type=SYSCALL msg=audit(1548380557.887:429360): arch=c000003e syscall=13 success=yes exit=0 a0=2 a1=7fff358521b0 a2=7fff35852250 a3=8 items=0 ppid=6770 pid=6771 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.887:429360): proctitle=2F686F6D652F736861696C612F446F63756D656E74732F776F726B5F6578616D706C652F62617368632D332E302F62617368002D69
+type=SYSCALL msg=audit(1548380557.887:429361): arch=c000003e syscall=13 success=yes exit=0 a0=14 a1=7fff358521c0 a2=7fff35852260 a3=8 items=0 ppid=6771 pid=6772 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.887:429361): proctitle=2F686F6D652F736861696C612F446F63756D656E74732F776F726B5F6578616D706C652F62617368632D332E302F62617368002D69
+type=SYSCALL msg=audit(1548380557.887:429362): arch=c000003e syscall=13 success=yes exit=0 a0=15 a1=7fff358521c0 a2=7fff35852260 a3=8 items=0 ppid=6771 pid=6772 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.887:429362): proctitle=2F686F6D652F736861696C612F446F63756D656E74732F776F726B5F6578616D706C652F62617368632D332E302F62617368002D69
+type=SYSCALL msg=audit(1548380557.887:429363): arch=c000003e syscall=13 success=yes exit=0 a0=16 a1=7fff358521d0 a2=7fff35852270 a3=8 items=0 ppid=6771 pid=6772 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.887:429363): proctitle=2F686F6D652F736861696C612F446F63756D656E74732F776F726B5F6578616D706C652F62617368632D332E302F62617368002D69
+type=SYSCALL msg=audit(1548380557.887:429364): arch=c000003e syscall=13 success=yes exit=0 a0=2 a1=7fff358522b0 a2=7fff35852350 a3=8 items=0 ppid=6771 pid=6772 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.887:429364): proctitle=2F686F6D652F736861696C612F446F63756D656E74732F776F726B5F6578616D706C652F62617368632D332E302F62617368002D69
+type=SYSCALL msg=audit(1548380557.887:429365): arch=c000003e syscall=13 success=yes exit=0 a0=3 a1=7fff358522b0 a2=7fff35852350 a3=8 items=0 ppid=6771 pid=6772 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.887:429365): proctitle=2F686F6D652F736861696C612F446F63756D656E74732F776F726B5F6578616D706C652F62617368632D332E302F62617368002D69
+type=SYSCALL msg=audit(1548380557.887:429366): arch=c000003e syscall=13 success=yes exit=0 a0=f a1=7fff358522b0 a2=7fff35852350 a3=8 items=0 ppid=6771 pid=6772 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.887:429366): proctitle=2F686F6D652F736861696C612F446F63756D656E74732F776F726B5F6578616D706C652F62617368632D332E302F62617368002D69
+type=SYSCALL msg=audit(1548380557.887:429367): arch=c000003e syscall=13 success=yes exit=0 a0=11 a1=7fff358522b0 a2=7fff35852350 a3=8 items=0 ppid=6771 pid=6772 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="bash" exe="/home/shaila/Documents/work_example/bashc-3.0/bash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.887:429367): proctitle=2F686F6D652F736861696C612F446F63756D656E74732F776F726B5F6578616D706C652F62617368632D332E302F62617368002D69
+

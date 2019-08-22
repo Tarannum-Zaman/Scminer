@@ -1,0 +1,141 @@
+type=SYSCALL msg=audit(1548380557.887:429420): arch=c000003e syscall=59 success=yes exit=0 a0=7f3939011038 a1=7f3938430bc0 a2=7f3939010e38 a3=ffffffffff41fda0 items=2 ppid=6772 pid=6773 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="basename" exe="/usr/local/bin/basename" key=(null)
+type=EXECVE msg=audit(1548380557.887:429420): argc=2 a0="basename" a1="/usr/bin/lesspipe"
+type=CWD msg=audit(1548380557.887:429420):  cwd="/home/shaila/Documents/work_example/bashc-3.0"
+type=PATH msg=audit(1548380557.887:429420): item=0 name="/usr/local/bin/basename" inode=262994 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=PATH msg=audit(1548380557.887:429420): item=1 name="/lib64/ld-linux-x86-64.so.2" inode=267737 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=UNKNOWN[1327] msg=audit(1548380557.887:429420): proctitle=2F62696E2F7368002F7573722F62696E2F6C65737370697065
+type=SYSCALL msg=audit(1548380557.891:429421): arch=c000003e syscall=12 success=yes exit=27508736 a0=0 a1=0 a2=0 a3=0 items=0 ppid=6772 pid=6773 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="basename" exe="/usr/local/bin/basename" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.891:429421): proctitle=2F62696E2F7368002F7573722F62696E2F6C65737370697065
+type=SYSCALL msg=audit(1548380557.891:429422): arch=c000003e syscall=21 success=no exit=-2 a0=7f923a7b99fd a1=0 a2=4 a3=400000006 items=1 ppid=6772 pid=6773 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="basename" exe="/usr/local/bin/basename" key=(null)
+type=CWD msg=audit(1548380557.891:429422):  cwd="/home/shaila/Documents/work_example/bashc-3.0"
+type=PATH msg=audit(1548380557.891:429422): item=0 name="/etc/ld.so.nohwcap" nametype=UNKNOWN
+type=UNKNOWN[1327] msg=audit(1548380557.891:429422): proctitle=2F62696E2F7368002F7573722F62696E2F6C65737370697065
+type=SYSCALL msg=audit(1548380557.891:429423): arch=c000003e syscall=21 success=no exit=-2 a0=7f923a7bc510 a1=4 a2=6 a3=4 items=1 ppid=6772 pid=6773 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="basename" exe="/usr/local/bin/basename" key=(null)
+type=CWD msg=audit(1548380557.891:429423):  cwd="/home/shaila/Documents/work_example/bashc-3.0"
+type=PATH msg=audit(1548380557.891:429423): item=0 name="/etc/ld.so.preload" nametype=UNKNOWN
+type=UNKNOWN[1327] msg=audit(1548380557.891:429423): proctitle=2F62696E2F7368002F7573722F62696E2F6C65737370697065
+type=SYSCALL msg=audit(1548380557.891:429424): arch=c000003e syscall=2 success=yes exit=3 a0=7f923a7b9f33 a1=80000 a2=1 a3=7f923a9c1570 items=1 ppid=6772 pid=6773 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="basename" exe="/usr/local/bin/basename" key=(null)
+type=CWD msg=audit(1548380557.891:429424):  cwd="/home/shaila/Documents/work_example/bashc-3.0"
+type=PATH msg=audit(1548380557.891:429424): item=0 name="/etc/ld.so.cache" inode=132539 dev=08:01 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=UNKNOWN[1327] msg=audit(1548380557.891:429424): proctitle=2F62696E2F7368002F7573722F62696E2F6C65737370697065
+type=SYSCALL msg=audit(1548380557.891:429425): arch=c000003e syscall=5 success=yes exit=0 a0=3 a1=7ffc4922e030 a2=7ffc4922e030 a3=7f923a9c1570 items=0 ppid=6772 pid=6773 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="basename" exe="/usr/local/bin/basename" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.891:429425): proctitle=2F62696E2F7368002F7573722F62696E2F6C65737370697065
+type=SYSCALL msg=audit(1548380557.891:429426): arch=c000003e syscall=9 success=yes exit=140266025148416 a0=0 a1=183fe a2=1 a3=2 items=0 ppid=6772 pid=6773 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="basename" exe="/usr/local/bin/basename" key=(null)
+type=MMAP msg=audit(1548380557.891:429426): fd=3 flags=0x2
+type=UNKNOWN[1327] msg=audit(1548380557.891:429426): proctitle=2F62696E2F7368002F7573722F62696E2F6C65737370697065
+type=SYSCALL msg=audit(1548380557.891:429427): arch=c000003e syscall=3 success=yes exit=0 a0=3 a1=183fe a2=1 a3=2 items=0 ppid=6772 pid=6773 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="basename" exe="/usr/local/bin/basename" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.891:429427): proctitle=2F62696E2F7368002F7573722F62696E2F6C65737370697065
+type=SYSCALL msg=audit(1548380557.891:429428): arch=c000003e syscall=21 success=no exit=-2 a0=7f923a7b99fd a1=0 a2=7f923a9a9294 a3=646c items=1 ppid=6772 pid=6773 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="basename" exe="/usr/local/bin/basename" key=(null)
+type=CWD msg=audit(1548380557.891:429428):  cwd="/home/shaila/Documents/work_example/bashc-3.0"
+type=PATH msg=audit(1548380557.891:429428): item=0 name="/etc/ld.so.nohwcap" nametype=UNKNOWN
+type=UNKNOWN[1327] msg=audit(1548380557.891:429428): proctitle=2F62696E2F7368002F7573722F62696E2F6C65737370697065
+type=SYSCALL msg=audit(1548380557.891:429429): arch=c000003e syscall=2 success=yes exit=3 a0=7f923a9bbbd5 a1=80000 a2=7f923a9c11c8 a3=40069a items=1 ppid=6772 pid=6773 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="basename" exe="/usr/local/bin/basename" key=(null)
+type=CWD msg=audit(1548380557.891:429429):  cwd="/home/shaila/Documents/work_example/bashc-3.0"
+type=PATH msg=audit(1548380557.891:429429): item=0 name="/lib/x86_64-linux-gnu/libc.so.6" inode=277281 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=UNKNOWN[1327] msg=audit(1548380557.891:429429): proctitle=2F62696E2F7368002F7573722F62696E2F6C65737370697065
+type=SYSCALL msg=audit(1548380557.891:429430): arch=c000003e syscall=0 success=yes exit=832 a0=3 a1=7ffc4922e1d0 a2=340 a3=40069a items=0 ppid=6772 pid=6773 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="basename" exe="/usr/local/bin/basename" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.891:429430): proctitle=2F62696E2F7368002F7573722F62696E2F6C65737370697065
+type=SYSCALL msg=audit(1548380557.891:429431): arch=c000003e syscall=5 success=yes exit=0 a0=3 a1=7ffc4922e080 a2=7ffc4922e080 a3=3 items=0 ppid=6772 pid=6773 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="basename" exe="/usr/local/bin/basename" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.891:429431): proctitle=2F62696E2F7368002F7573722F62696E2F6C65737370697065
+type=SYSCALL msg=audit(1548380557.891:429432): arch=c000003e syscall=9 success=yes exit=140266025144320 a0=0 a1=1000 a2=3 a3=22 items=0 ppid=6772 pid=6773 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="basename" exe="/usr/local/bin/basename" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.891:429432): proctitle=2F62696E2F7368002F7573722F62696E2F6C65737370697065
+type=SYSCALL msg=audit(1548380557.891:429433): arch=c000003e syscall=9 success=yes exit=140266019045376 a0=0 a1=3c82c0 a2=5 a3=802 items=0 ppid=6772 pid=6773 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="basename" exe="/usr/local/bin/basename" key=(null)
+type=MMAP msg=audit(1548380557.891:429433): fd=3 flags=0x802
+type=UNKNOWN[1327] msg=audit(1548380557.891:429433): proctitle=2F62696E2F7368002F7573722F62696E2F6C65737370697065
+type=SYSCALL msg=audit(1548380557.891:429434): arch=c000003e syscall=10 success=yes exit=0 a0=7f923a592000 a1=200000 a2=0 a3=802 items=0 ppid=6772 pid=6773 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="basename" exe="/usr/local/bin/basename" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.891:429434): proctitle=2F62696E2F7368002F7573722F62696E2F6C65737370697065
+type=SYSCALL msg=audit(1548380557.891:429435): arch=c000003e syscall=9 success=yes exit=140266022969344 a0=7f923a792000 a1=6000 a2=3 a3=812 items=0 ppid=6772 pid=6773 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="basename" exe="/usr/local/bin/basename" key=(null)
+type=MMAP msg=audit(1548380557.891:429435): fd=3 flags=0x812
+type=UNKNOWN[1327] msg=audit(1548380557.891:429435): proctitle=2F62696E2F7368002F7573722F62696E2F6C65737370697065
+type=SYSCALL msg=audit(1548380557.891:429436): arch=c000003e syscall=9 success=yes exit=140266022993920 a0=7f923a798000 a1=42c0 a2=3 a3=32 items=0 ppid=6772 pid=6773 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="basename" exe="/usr/local/bin/basename" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.891:429436): proctitle=2F62696E2F7368002F7573722F62696E2F6C65737370697065
+type=SYSCALL msg=audit(1548380557.891:429437): arch=c000003e syscall=3 success=yes exit=0 a0=3 a1=7f923a9a5040 a2=0 a3=31 items=0 ppid=6772 pid=6773 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="basename" exe="/usr/local/bin/basename" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.891:429437): proctitle=2F62696E2F7368002F7573722F62696E2F6C65737370697065
+type=SYSCALL msg=audit(1548380557.891:429438): arch=c000003e syscall=9 success=yes exit=140266025136128 a0=0 a1=2000 a2=3 a3=22 items=0 ppid=6772 pid=6773 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="basename" exe="/usr/local/bin/basename" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.891:429438): proctitle=2F62696E2F7368002F7573722F62696E2F6C65737370697065
+type=SYSCALL msg=audit(1548380557.891:429439): arch=c000003e syscall=158 success=yes exit=0 a0=1002 a1=7f923a9a3740 a2=7f923a9a4050 a3=22 items=0 ppid=6772 pid=6773 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="basename" exe="/usr/local/bin/basename" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.891:429439): proctitle=2F62696E2F7368002F7573722F62696E2F6C65737370697065
+type=SYSCALL msg=audit(1548380557.891:429440): arch=c000003e syscall=10 success=yes exit=0 a0=7f923a792000 a1=4000 a2=1 a3=7ffc4922e480 items=0 ppid=6772 pid=6773 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="basename" exe="/usr/local/bin/basename" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.891:429440): proctitle=2F62696E2F7368002F7573722F62696E2F6C65737370697065
+type=SYSCALL msg=audit(1548380557.891:429441): arch=c000003e syscall=10 success=yes exit=0 a0=603000 a1=1000 a2=1 a3=0 items=0 ppid=6772 pid=6773 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="basename" exe="/usr/local/bin/basename" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.891:429441): proctitle=2F62696E2F7368002F7573722F62696E2F6C65737370697065
+type=SYSCALL msg=audit(1548380557.891:429442): arch=c000003e syscall=10 success=yes exit=0 a0=7f923a9bf000 a1=1000 a2=1 a3=0 items=0 ppid=6772 pid=6773 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="basename" exe="/usr/local/bin/basename" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.891:429442): proctitle=2F62696E2F7368002F7573722F62696E2F6C65737370697065
+type=SYSCALL msg=audit(1548380557.891:429443): arch=c000003e syscall=11 success=yes exit=0 a0=7f923a9a6000 a1=183fe a2=ad49 a3=0 items=0 ppid=6772 pid=6773 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="basename" exe="/usr/local/bin/basename" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.891:429443): proctitle=2F62696E2F7368002F7573722F62696E2F6C65737370697065
+type=SYSCALL msg=audit(1548380557.891:429444): arch=c000003e syscall=12 success=yes exit=27508736 a0=0 a1=0 a2=20040 a3=c items=0 ppid=6772 pid=6773 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="basename" exe="/usr/local/bin/basename" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.891:429444): proctitle=2F62696E2F7368002F7573722F62696E2F6C65737370697065
+type=SYSCALL msg=audit(1548380557.891:429445): arch=c000003e syscall=12 success=yes exit=27643904 a0=1a5d000 a1=1a5d000 a2=1a3c000 a3=c items=0 ppid=6772 pid=6773 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="basename" exe="/usr/local/bin/basename" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.891:429445): proctitle=2F62696E2F7368002F7573722F62696E2F6C65737370697065
+type=SYSCALL msg=audit(1548380557.891:429446): arch=c000003e syscall=2 success=yes exit=3 a0=7f923a55cb20 a1=80000 a2=7f923a796768 a3=7ffc4922e320 items=1 ppid=6772 pid=6773 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="basename" exe="/usr/local/bin/basename" key=(null)
+type=CWD msg=audit(1548380557.891:429446):  cwd="/home/shaila/Documents/work_example/bashc-3.0"
+type=PATH msg=audit(1548380557.891:429446): item=0 name="/usr/lib/locale/locale-archive" inode=7945 dev=08:01 mode=0100644 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=UNKNOWN[1327] msg=audit(1548380557.891:429446): proctitle=2F62696E2F7368002F7573722F62696E2F6C65737370697065
+type=SYSCALL msg=audit(1548380557.891:429447): arch=c000003e syscall=5 success=yes exit=0 a0=3 a1=7f923a797b60 a2=7f923a797b60 a3=7ffc4922e320 items=0 ppid=6772 pid=6773 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="basename" exe="/usr/local/bin/basename" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.891:429447): proctitle=2F62696E2F7368002F7573722F62696E2F6C65737370697065
+type=SYSCALL msg=audit(1548380557.891:429448): arch=c000003e syscall=9 success=yes exit=140266011828224 a0=0 a1=6e1e30 a2=1 a3=2 items=0 ppid=6772 pid=6773 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="basename" exe="/usr/local/bin/basename" key=(null)
+type=MMAP msg=audit(1548380557.891:429448): fd=3 flags=0x2
+type=UNKNOWN[1327] msg=audit(1548380557.891:429448): proctitle=2F62696E2F7368002F7573722F62696E2F6C65737370697065
+type=SYSCALL msg=audit(1548380557.891:429449): arch=c000003e syscall=3 success=yes exit=0 a0=3 a1=6e1e30 a2=58e8 a3=2 items=0 ppid=6772 pid=6773 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="basename" exe="/usr/local/bin/basename" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.891:429449): proctitle=2F62696E2F7368002F7573722F62696E2F6C65737370697065
+type=SYSCALL msg=audit(1548380557.891:429450): arch=c000003e syscall=5 success=yes exit=0 a0=1 a1=7ffc4922e7b0 a2=7ffc4922e7b0 a3=7ffc4922e6c0 items=0 ppid=6772 pid=6773 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="basename" exe="/usr/local/bin/basename" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.891:429450): proctitle=2F62696E2F7368002F7573722F62696E2F6C65737370697065
+type=SYSCALL msg=audit(1548380557.891:429451): arch=c000003e syscall=9 success=yes exit=140266025246720 a0=0 a1=1000 a2=3 a3=22 items=0 ppid=6772 pid=6773 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="basename" exe="/usr/local/bin/basename" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.891:429451): proctitle=2F62696E2F7368002F7573722F62696E2F6C65737370697065
+type=SYSCALL msg=audit(1548380557.891:429452): arch=c000003e syscall=1 success=yes exit=9 a0=1 a1=7f923a9be000 a2=9 a3=7ffc4922e640 items=0 ppid=6772 pid=6773 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="basename" exe="/usr/local/bin/basename" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.891:429452): proctitle=2F62696E2F7368002F7573722F62696E2F6C65737370697065
+type=SYSCALL msg=audit(1548380557.891:429453): arch=c000003e syscall=3 success=yes exit=0 a0=1 a1=7f923a9be000 a2=7f923a9bf000 a3=7ffc4922e640 items=0 ppid=6772 pid=6773 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="basename" exe="/usr/local/bin/basename" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.891:429453): proctitle=2F62696E2F7368002F7573722F62696E2F6C65737370697065
+type=SYSCALL msg=audit(1548380557.891:429454): arch=c000003e syscall=11 success=yes exit=0 a0=7f923a9be000 a1=1000 a2=0 a3=7ffc4922e640 items=0 ppid=6772 pid=6773 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="basename" exe="/usr/local/bin/basename" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.891:429454): proctitle=2F62696E2F7368002F7573722F62696E2F6C65737370697065
+type=SYSCALL msg=audit(1548380557.891:429455): arch=c000003e syscall=3 success=yes exit=0 a0=2 a1=1 a2=0 a3=7ffc4922e640 items=0 ppid=6772 pid=6773 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="basename" exe="/usr/local/bin/basename" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.891:429455): proctitle=2F62696E2F7368002F7573722F62696E2F6C65737370697065
+type=SYSCALL msg=audit(1548380557.891:429456): arch=c000003e syscall=231 a0=0 a1=0 a2=0 a3=ffffffffffffff60 items=0 ppid=6772 pid=6773 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="basename" exe="/usr/local/bin/basename" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.891:429456): proctitle=2F62696E2F7368002F7573722F62696E2F6C65737370697065
+type=SYSCALL msg=audit(1548380557.887:429457): arch=c000003e syscall=0 success=yes exit=9 a0=3 a1=7fffc5c44c40 a2=80 a3=7f3938410a10 items=0 ppid=6771 pid=6772 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="lesspipe" exe="/bin/dash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.887:429457): proctitle=2F686F6D652F736861696C612F446F63756D656E74732F776F726B5F6578616D706C652F62617368632D332E302F62617368002D69
+type=SYSCALL msg=audit(1548380557.891:429458): arch=c000003e syscall=15 success=yes exit=9 a0=11 a1=7fffc5c44730 a2=7fffc5c44600 a3=7f3938410a10 items=0 ppid=6771 pid=6772 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="lesspipe" exe="/bin/dash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.891:429458): proctitle=2F686F6D652F736861696C612F446F63756D656E74732F776F726B5F6578616D706C652F62617368632D332E302F62617368002D69
+type=SYSCALL msg=audit(1548380557.891:429459): arch=c000003e syscall=0 success=yes exit=0 a0=3 a1=7fffc5c44c40 a2=80 a3=0 items=0 ppid=6771 pid=6772 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="lesspipe" exe="/bin/dash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.891:429459): proctitle=2F686F6D652F736861696C612F446F63756D656E74732F776F726B5F6578616D706C652F62617368632D332E302F62617368002D69
+type=SYSCALL msg=audit(1548380557.891:429460): arch=c000003e syscall=3 success=yes exit=0 a0=3 a1=0 a2=80 a3=0 items=0 ppid=6771 pid=6772 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="lesspipe" exe="/bin/dash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.891:429460): proctitle=2F686F6D652F736861696C612F446F63756D656E74732F776F726B5F6578616D706C652F62617368632D332E302F62617368002D69
+type=SYSCALL msg=audit(1548380557.891:429461): arch=c000003e syscall=61 success=yes exit=6773 a0=ffffffff a1=7fffc5c44a1c a2=0 a3=0 items=0 ppid=6771 pid=6772 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="lesspipe" exe="/bin/dash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.891:429461): proctitle=2F686F6D652F736861696C612F446F63756D656E74732F776F726B5F6578616D706C652F62617368632D332E302F62617368002D69
+type=SYSCALL msg=audit(1548380557.891:429462): arch=c000003e syscall=22 success=yes exit=0 a0=7fffc5c44ad0 a1=7fffc5c44b60 a2=1b8 a3=0 items=0 ppid=6771 pid=6772 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="lesspipe" exe="/bin/dash" key=(null)
+type=FD_PAIR msg=audit(1548380557.891:429462): fd0=3 fd1=4
+type=UNKNOWN[1327] msg=audit(1548380557.891:429462): proctitle=2F686F6D652F736861696C612F446F63756D656E74732F776F726B5F6578616D706C652F62617368632D332E302F62617368002D69
+type=SYSCALL msg=audit(1548380557.891:429463): arch=c000003e syscall=56 success=yes exit=6774 a0=1200011 a1=0 a2=0 a3=7f3938410a10 items=0 ppid=6771 pid=6772 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="lesspipe" exe="/bin/dash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.891:429463): proctitle=2F686F6D652F736861696C612F446F63756D656E74732F776F726B5F6578616D706C652F62617368632D332E302F62617368002D69
+type=SYSCALL msg=audit(1548380557.891:429464): arch=c000003e syscall=3 success=yes exit=0 a0=4 a1=7f3937fe5760 a2=7f3939010d60 a3=7f3938410a10 items=0 ppid=6771 pid=6772 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="lesspipe" exe="/bin/dash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.891:429464): proctitle=2F686F6D652F736861696C612F446F63756D656E74732F776F726B5F6578616D706C652F62617368632D332E302F62617368002D69
+type=SYSCALL msg=audit(1548380557.891:429465): arch=c000003e syscall=3 success=yes exit=0 a0=a a1=7f3937fe5760 a2=1 a3=7f3938410a10 items=0 ppid=6772 pid=6774 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="lesspipe" exe="/bin/dash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.891:429465): proctitle=2F62696E2F7368002F7573722F62696E2F6C65737370697065
+type=SYSCALL msg=audit(1548380557.891:429466): arch=c000003e syscall=3 success=yes exit=0 a0=3 a1=2 a2=7f393842e388 a3=7f3938410a10 items=0 ppid=6772 pid=6774 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="lesspipe" exe="/bin/dash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.891:429466): proctitle=2F62696E2F7368002F7573722F62696E2F6C65737370697065
+type=SYSCALL msg=audit(1548380557.891:429467): arch=c000003e syscall=33 success=yes exit=1 a0=4 a1=1 a2=7f393842e388 a3=7f3938410a10 items=0 ppid=6772 pid=6774 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="lesspipe" exe="/bin/dash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.891:429467): proctitle=2F62696E2F7368002F7573722F62696E2F6C65737370697065
+type=SYSCALL msg=audit(1548380557.891:429468): arch=c000003e syscall=3 success=yes exit=0 a0=4 a1=1 a2=7f393842e388 a3=7f3938410a10 items=0 ppid=6772 pid=6774 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="lesspipe" exe="/bin/dash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.891:429468): proctitle=2F62696E2F7368002F7573722F62696E2F6C65737370697065
+type=SYSCALL msg=audit(1548380557.891:429469): arch=c000003e syscall=22 success=yes exit=0 a0=7fffc5c447e0 a1=7fffc5c44870 a2=1a0 a3=7f3938410a10 items=0 ppid=6772 pid=6774 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="lesspipe" exe="/bin/dash" key=(null)
+type=FD_PAIR msg=audit(1548380557.891:429469): fd0=3 fd1=4
+type=UNKNOWN[1327] msg=audit(1548380557.891:429469): proctitle=2F62696E2F7368002F7573722F62696E2F6C65737370697065
+type=SYSCALL msg=audit(1548380557.891:429470): arch=c000003e syscall=56 success=yes exit=6775 a0=1200011 a1=0 a2=0 a3=7f3938410a10 items=0 ppid=6772 pid=6774 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="lesspipe" exe="/bin/dash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.891:429470): proctitle=2F62696E2F7368002F7573722F62696E2F6C65737370697065
+type=SYSCALL msg=audit(1548380557.891:429471): arch=c000003e syscall=3 success=yes exit=0 a0=4 a1=7f3937fe5760 a2=7f3939010d60 a3=7f3938410a10 items=0 ppid=6772 pid=6774 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="lesspipe" exe="/bin/dash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.891:429471): proctitle=2F62696E2F7368002F7573722F62696E2F6C65737370697065
+type=SYSCALL msg=audit(1548380557.891:429472): arch=c000003e syscall=3 success=yes exit=0 a0=3 a1=2 a2=7f393842e388 a3=7f3938410a10 items=0 ppid=6774 pid=6775 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="lesspipe" exe="/bin/dash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.891:429472): proctitle=2F62696E2F7368002F7573722F62696E2F6C65737370697065
+type=SYSCALL msg=audit(1548380557.891:429473): arch=c000003e syscall=33 success=yes exit=1 a0=4 a1=1 a2=7f393842e388 a3=7f3938410a10 items=0 ppid=6774 pid=6775 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="lesspipe" exe="/bin/dash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.891:429473): proctitle=2F62696E2F7368002F7573722F62696E2F6C65737370697065
+type=SYSCALL msg=audit(1548380557.891:429474): arch=c000003e syscall=3 success=yes exit=0 a0=4 a1=1 a2=7f393842e388 a3=7f3938410a10 items=0 ppid=6774 pid=6775 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="lesspipe" exe="/bin/dash" key=(null)
+type=UNKNOWN[1327] msg=audit(1548380557.891:429474): proctitle=2F62696E2F7368002F7573722F62696E2F6C65737370697065
+type=SYSCALL msg=audit(1548380557.891:429475): arch=c000003e syscall=4 success=no exit=-2 a0=7f393901aeb0 a1=7fffc5c44610 a2=7fffc5c44610 a3=2 items=1 ppid=6774 pid=6775 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="lesspipe" exe="/bin/dash" key=(null)
+type=CWD msg=audit(1548380557.891:429475):  cwd="/home/shaila/Documents/work_example/bashc-3.0"
+type=PATH msg=audit(1548380557.891:429475): item=0 name="/usr/local/sbin/dirname" nametype=UNKNOWN
+type=UNKNOWN[1327] msg=audit(1548380557.891:429475): proctitle=2F62696E2F7368002F7573722F62696E2F6C65737370697065
+type=SYSCALL msg=audit(1548380557.891:429476): arch=c000003e syscall=4 success=yes exit=0 a0=7f393901aeb0 a1=7fffc5c44610 a2=7fffc5c44610 a3=2 items=1 ppid=6774 pid=6775 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=pts11 ses=4294967295 comm="lesspipe" exe="/bin/dash" key=(null)
+type=CWD msg=audit(1548380557.891:429476):  cwd="/home/shaila/Documents/work_example/bashc-3.0"
+type=PATH msg=audit(1548380557.891:429476): item=0 name="/usr/local/bin/dirname" inode=262996 dev=08:01 mode=0100755 ouid=0 ogid=0 rdev=00:00 nametype=NORMAL
+type=UNKNOWN[1327] msg=audit(1548380557.891:429476): proctitle=2F62696E2F7368002F7573722F62696E2F6C65737370697065
+
